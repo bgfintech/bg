@@ -1,0 +1,513 @@
+2019-02-16 12:40:54 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"yzy7UnnLcT53taD6HBe8Er8RWuQ+fwwpY2LnyfbYD7JHHf5xOFZ+aWVITg/fbJJOClCp/uxnQxaGsD10Bp2B4OqgaOPaf6qH3+nEwe7kdWBCTFrv76KJS/QENxB/cuPd2YZlhWEdxPek5MguPK8ePCSpB9Q2CYw9NhKZt3HVTo4=","data":"RpAwFP7Snw/arpjOtxV8Sik160tGNOpBQgno+A7ib2lbImQnSqbe9Y2L7dMp/9fIdQupk0TwxdLXERVlNUFYg8R9oSP+Hil0tuI23Z+zOIzzxZph0u4sRya274tDkPgic9JBFsRt/pYhxUhPl5f4vJsKf8dk1dguF8CJFZbSfss="}
+2019-02-16 13:05:03 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"yzy7UnnLcT53taD6HBe8Er8RWuQ+fwwpY2LnyfbYD7JHHf5xOFZ+aWVITg/fbJJOClCp/uxnQxaGsD10Bp2B4OqgaOPaf6qH3+nEwe7kdWBCTFrv76KJS/QENxB/cuPd2YZlhWEdxPek5MguPK8ePCSpB9Q2CYw9NhKZt3HVTo4=","data":"md522NCy+IfkiuHL4GLje6NrGk1Czruogs/RdTCYA9s6ss/4ApvBkUyzrP9Jz06Wz/JPBaKBKhiXdPMCuWTSRvb3SKqmRxBTSn4QrQI/nQAOzjInCD0nh5fhqECqcRp2bMs7l/qqcvz4/6aNic5WVOlz46MZKiBXoialcjqJKGk="}
+2019-02-16 13:11:38 [main] INFO  .interfaces.controller.GateWayController -post body:"商户号有误"
+2019-02-16 13:11:38 [main] ERROR .interfaces.controller.GateWayController -java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:169)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:429)
+2019-02-16 13:14:44 [main] INFO  .interfaces.controller.GateWayController -post body:"商户号有误"
+2019-02-16 13:14:44 [main] ERROR .interfaces.controller.GateWayController -java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:169)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:432)
+2019-02-16 13:15:01 [main] INFO  .interfaces.controller.GateWayController -post body:"商户号有误"
+2019-02-16 13:15:01 [main] ERROR .interfaces.controller.GateWayController -java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:169)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:432)
+2019-02-16 13:16:42 [main] INFO  .interfaces.controller.GateWayController -post body:"商户号有误"
+2019-02-16 13:16:42 [main] ERROR .interfaces.controller.GateWayController -java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:169)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:433)
+2019-02-16 13:18:07 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 13:18:07 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 13:23:22 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 13:23:22 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 13:26:52 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 13:26:52 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 13:27:34 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 13:27:34 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 13:33:53 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 13:33:53 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 13:39:41 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 13:39:41 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 13:44:41 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cPJtjzUQzdwpjzgIshc28AErzoahYLL+zmzDJNHbSIzYlFwfVn7JOpNga/LOa7yzKPVtR6CtoXILZQrvLlVdJNKmmyFG7rYfp6IghwV0rZQgUWzk4Ql4NJkf1exCT1iN05NvyeKGq24uilDiyzlIXkOkcAQGvh3rd5tB2iNw8VU=","data":"uoI94cdGchjAORzv7KewEpqQJ9mSFC8Iiu7DIp7q9WI7C+yHqzFmd9UtHn/T49h1kQYFE+ni/1viwiQ+z8UofLNn5JSl/gehuvD31CIdtdID7jLN+X5ZA+b1VnpHMNa11s2a/wIICzQ/mBw/5876JPGrqGDOZ5z1TvzHk3cIcpc="}
+2019-02-16 13:47:35 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cPJtjzUQzdwpjzgIshc28AErzoahYLL+zmzDJNHbSIzYlFwfVn7JOpNga/LOa7yzKPVtR6CtoXILZQrvLlVdJNKmmyFG7rYfp6IghwV0rZQgUWzk4Ql4NJkf1exCT1iN05NvyeKGq24uilDiyzlIXkOkcAQGvh3rd5tB2iNw8VU=","data":"ZSNBL/M4yllk3xeYpdcDJwroMPybUwoyfxehzSWrm71z+KoH2MsTBtdKx3d8KxoU8K3EBEfjajdFV2bbcoOuGoFefnMlXNDvQvkJ1qTGIBwF1Ltn2kP99ZbqIXyrDif4NfuGAgiN2bugQH4v6C9jTdCaYGXGI7z9+AUdQROr4dE="}
+2019-02-16 13:51:55 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 13:51:55 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 13:55:10 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 13:55:10 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 13:57:49 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 13:57:49 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 14:00:42 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 14:00:42 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:438)
+2019-02-16 14:03:21 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cPJtjzUQzdwpjzgIshc28AErzoahYLL+zmzDJNHbSIzYlFwfVn7JOpNga/LOa7yzKPVtR6CtoXILZQrvLlVdJNKmmyFG7rYfp6IghwV0rZQgUWzk4Ql4NJkf1exCT1iN05NvyeKGq24uilDiyzlIXkOkcAQGvh3rd5tB2iNw8VU=","data":"YmV7PDqyAbG9CKQlVmGwnVwmV4Yt+OL93mfC7gsRyl0BY2YKCfVNIzx3ZwJrxgzOLM1Oo4CFiw0kympTLuWMZz15jTHHB+ZbiHKyz8NfNGPufMnEKSgS0VsaqvEM4ySQ2+RmfvBY5aARrkO/BjeECFRm1/FNvgboXfH8sfAzEwE="}
+2019-02-16 14:10:00 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cPJtjzUQzdwpjzgIshc28AErzoahYLL+zmzDJNHbSIzYlFwfVn7JOpNga/LOa7yzKPVtR6CtoXILZQrvLlVdJNKmmyFG7rYfp6IghwV0rZQgUWzk4Ql4NJkf1exCT1iN05NvyeKGq24uilDiyzlIXkOkcAQGvh3rd5tB2iNw8VU=","data":"AlrIefmnTbz77zgKsk/wDX42HB2APl0I+LxGH9fOPo/ge9Cc7iLCRSfguIQTPLNl15Pf8DygN7e4/w78t26vUeWHBV/W8siRds7PGJr0KatJgNcyLOEoTIzdojsg3W50OT7dIyCFedRVJrdiMHhYDZ1L5zW0ScD8e9ADdUQIreA="}
+2019-02-16 14:14:27 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cPJtjzUQzdwpjzgIshc28AErzoahYLL+zmzDJNHbSIzYlFwfVn7JOpNga/LOa7yzKPVtR6CtoXILZQrvLlVdJNKmmyFG7rYfp6IghwV0rZQgUWzk4Ql4NJkf1exCT1iN05NvyeKGq24uilDiyzlIXkOkcAQGvh3rd5tB2iNw8VU=","data":"iUgvwpaLP/65467Xm5di96C9TnO5t3xNpJ5KzdgoRGhrMefMEZ+xfAHe1laPh+P/o13hfq3nHbTAEZ6i4YhOH4+gzK255xNLVXlJTihofxXRhs5EkuTgBkhB09PF/r+A3iATHXpjlVSACq9P8K7BlfCFslRueKo4cOnNXBM3E6k="}
+2019-02-16 14:16:57 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"rbLSJ+9d4RXaK/Ktl85KVwZZ7ZkpueppvmJOpEcTlVr/C6kr3QvnYmh3jNoHVVD/D6tzKGQ0mqdFGLGu3zi45fZCeY65DVqckEhuJ+HnNlVmZ3gKsS5qZfY+ga7CvyaNx5y5KH+UMhB+Zw6/B9x28xTwyklb0K8pmKVQJetbbqg=","data":"kdxaOjtJYrXnRXkts5pstb2rjXX2QAuQ1xnLZPBOM+zjwYP8qkQNy0laTNFbj3GUFZtJEM8j8liS0VajXBFyI33U+vH8CHT7XO5HDInLNNHutYv2U+UBkbuS8dymKpFRUlLK/AyoqLWFSpdiZq6SgpHDiZzb0+SQvqppAoKZwfw="}
+2019-02-16 14:16:57 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:438)
+2019-02-16 14:20:15 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cPJtjzUQzdwpjzgIshc28AErzoahYLL+zmzDJNHbSIzYlFwfVn7JOpNga/LOa7yzKPVtR6CtoXILZQrvLlVdJNKmmyFG7rYfp6IghwV0rZQgUWzk4Ql4NJkf1exCT1iN05NvyeKGq24uilDiyzlIXkOkcAQGvh3rd5tB2iNw8VU=","data":"aJxl8BIQlOTOgvVDiWtosgcvoKPW77Ij6HJQI/GApDnuwhCvZorMDFJ1/GduLJ5My8nrUiLJpnzr7SAZaGFY8Aa4GAvI0JyRvcF/r1JLwLhRLb4+mgF62rv3yT+AqGroHBmWIxO8v1TibMxTC8xCmbb0cH/n8558bJQZKRY+VS0="}
+2019-02-16 14:23:21 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cPJtjzUQzdwpjzgIshc28AErzoahYLL+zmzDJNHbSIzYlFwfVn7JOpNga/LOa7yzKPVtR6CtoXILZQrvLlVdJNKmmyFG7rYfp6IghwV0rZQgUWzk4Ql4NJkf1exCT1iN05NvyeKGq24uilDiyzlIXkOkcAQGvh3rd5tB2iNw8VU=","data":"KQ6gvI8wcSh2xIu8/3SWyUPO4T/85hVJKX3TJAJX4IAOeqo7HQvtj3mLyQOpHGcRmNmANiilia/KZdcWCbiRtEcxIMoq6hlFr+s/mgjY1mjIkLm+L6zCm1ZfQM+2nEtRtRUklr7KNW7PzQzEp3IzR6wEICQyly/fXoxP5Hmsjaw="}
+2019-02-16 14:25:55 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cPJtjzUQzdwpjzgIshc28AErzoahYLL+zmzDJNHbSIzYlFwfVn7JOpNga/LOa7yzKPVtR6CtoXILZQrvLlVdJNKmmyFG7rYfp6IghwV0rZQgUWzk4Ql4NJkf1exCT1iN05NvyeKGq24uilDiyzlIXkOkcAQGvh3rd5tB2iNw8VU=","data":"p1te6B4/N3VOqx4HZy4M14VOTwQ45BA64AcmuiQ4cMn1v2LVYWO8cUSq3ZKHQCnX8DHsWcuZnDtS86a+I4+NwrFS7pGggap7+E/gieGoezQJy5TxyXW0AnUVo1/rSzpdosZp4er4+qtdw07qhxI/hT7hu+aCMMPa/QKsUGwT5go="}
+2019-02-16 14:27:19 [main] INFO  .interfaces.controller.GateWayController -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: NullPointerException</H2>
+<hr />
+<P>错误描述：</P>
+null
+<P>错误信息：</P>
+java.lang.NullPointerException
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1017)
+	at java.lang.Double.parseDouble(Double.java:540)
+	at com.bg.interfaces.service.impl.GateWayServiceByYBZFImpl.process1017(GateWayServiceByYBZFImpl.java:324)
+	at com.bg.interfaces.controller.GateWayController.gateway(GateWayController.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:119)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+</body>
+</html>
+2019-02-16 14:27:19 [main] ERROR .interfaces.controller.GateWayController -syntax error, pos 2
+com.alibaba.fastjson.JSONException: syntax error, pos 2
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:435)
+2019-02-16 14:28:41 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"O/fX0ZKQCYGGutgrC+nrE5/EhH4VUiSu504tvZaB7wOXvazN/uBPsOnPkqB8u6j+buyUxO3mkWZLbYxqyyDKb60kZzhldxkXeLZ1Sf4yns3vY/8wbmueuhP92nhbeYOu6wBnxPZDH3eiixdKXmMWuzFjZD5TRjy5Y0z6Qi1sRJY=","data":"cwO+v5vUs+F7EcXNt9nZmjKml5bTPm6il1ZM0rQnzFeNi2rEm/9takQ7O4U84R3ZB6+jYq+z/ufhLT4pA10TZ56bM9vdoK1XuZk4j75S0PfD1skXIT0zLCo2/UUL45bvNFwkUH+da8BgM9zmIPJVonOjwz/BfZY/5yYxVUYKoq4="}
+2019-02-16 14:35:15 [main] INFO  .interfaces.controller.GateWayController -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: NullPointerException</H2>
+<hr />
+<P>错误描述：</P>
+null
+<P>错误信息：</P>
+java.lang.NullPointerException
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1017)
+	at java.lang.Double.parseDouble(Double.java:540)
+	at com.bg.interfaces.service.impl.GateWayServiceByYBZFImpl.process1017(GateWayServiceByYBZFImpl.java:324)
+	at com.bg.interfaces.controller.GateWayController.gateway(GateWayController.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:119)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+</body>
+</html>
+2019-02-16 14:35:15 [main] ERROR .interfaces.controller.GateWayController -syntax error, pos 2
+com.alibaba.fastjson.JSONException: syntax error, pos 2
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:435)
+2019-02-16 14:44:45 [main] INFO  .interfaces.controller.GateWayController -http://test.widefinance.cn/gateway.do [Content-Type: application/x-www-form-urlencoded; charset=UTF-8,Content-Length: 410,Chunked: false] 500
+2019-02-16 14:47:54 [main] INFO  .interfaces.controller.GateWayController -http://test.widefinance.cn/gateway.do [Content-Type: application/x-www-form-urlencoded; charset=UTF-8,Content-Length: 408,Chunked: false] 500
+2019-02-16 14:51:06 [main] INFO  .interfaces.controller.GateWayController -http://test.widefinance.cn/gateway.do [Content-Type: application/x-www-form-urlencoded; charset=UTF-8,Content-Length: 406,Chunked: false] 500
+2019-02-16 14:54:58 [main] INFO  .interfaces.controller.GateWayController -http://test.widefinance.cn/gateway.do [Content-Type: application/x-www-form-urlencoded; charset=UTF-8,Content-Length: 412,Chunked: false] 500
+2019-02-16 15:05:26 [main] INFO  .interfaces.controller.GateWayController -http://test.widefinance.cn/gateway.do [Content-Type: application/x-www-form-urlencoded; charset=UTF-8,Content-Length: 402,Chunked: false] 500
+2019-02-16 15:31:39 [main] INFO  ay.g3.sdk.yop.config.support.ConfigUtils -can't read dir from protocol:jar
+2019-02-16 15:31:39 [main] WARN  provider.DefaultFileAppSdkConfigProvider -no custom sdkConfig provided.
+2019-02-16 15:31:40 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param authtypeis null or empty，ignore it
+2019-02-16 15:31:40 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param advicesmstypeis null or empty，ignore it
+2019-02-16 15:31:40 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param remarkis null or empty，ignore it
+2019-02-16 15:31:40 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param callbackurlis null or empty，ignore it
+2019-02-16 15:31:40 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param extinfosis null or empty，ignore it
+2019-02-16 15:31:40 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param avaliabletimeis null or empty，ignore it
+2019-02-16 15:31:40 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param issmsis null or empty，ignore it
+2019-02-16 15:31:40 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstempldatemsgis null or empty，ignore it
+2019-02-16 15:31:40 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstemplateidis null or empty，ignore it
+2019-02-16 15:32:37 [main] INFO  ay.g3.sdk.yop.config.support.ConfigUtils -can't read dir from protocol:jar
+2019-02-16 15:32:37 [main] WARN  provider.DefaultFileAppSdkConfigProvider -no custom sdkConfig provided.
+2019-02-16 15:32:37 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param authtypeis null or empty，ignore it
+2019-02-16 15:32:37 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param advicesmstypeis null or empty，ignore it
+2019-02-16 15:32:37 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param remarkis null or empty，ignore it
+2019-02-16 15:32:37 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param callbackurlis null or empty，ignore it
+2019-02-16 15:32:37 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param extinfosis null or empty，ignore it
+2019-02-16 15:32:37 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param avaliabletimeis null or empty，ignore it
+2019-02-16 15:32:37 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param issmsis null or empty，ignore it
+2019-02-16 15:32:37 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstempldatemsgis null or empty，ignore it
+2019-02-16 15:32:37 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstemplateidis null or empty，ignore it
+2019-02-16 15:33:52 [main] INFO  ay.g3.sdk.yop.config.support.ConfigUtils -can't read dir from protocol:jar
+2019-02-16 15:33:52 [main] WARN  provider.DefaultFileAppSdkConfigProvider -no custom sdkConfig provided.
+2019-02-16 15:33:53 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param authtypeis null or empty，ignore it
+2019-02-16 15:33:53 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param advicesmstypeis null or empty，ignore it
+2019-02-16 15:33:53 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param remarkis null or empty，ignore it
+2019-02-16 15:33:53 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param callbackurlis null or empty，ignore it
+2019-02-16 15:33:53 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param extinfosis null or empty，ignore it
+2019-02-16 15:33:53 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param avaliabletimeis null or empty，ignore it
+2019-02-16 15:33:53 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param issmsis null or empty，ignore it
+2019-02-16 15:33:53 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstempldatemsgis null or empty，ignore it
+2019-02-16 15:33:53 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstemplateidis null or empty，ignore it
+2019-02-16 15:38:01 [main] INFO  .interfaces.controller.GateWayController -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: NullPointerException</H2>
+<hr />
+<P>错误描述：</P>
+AppKey is blank.
+<P>错误信息：</P>
+java.lang.NullPointerException: AppKey is blank.
+	at com.yeepay.shade.org.apache.commons.lang3.Validate.notBlank(Validate.java:451)
+	at com.yeepay.g3.sdk.yop.client.YopRequest.<init>(YopRequest.java:80)
+	at com.bg.trans.service.impl.TransYBZFServiceImpl.yeepayYOP(TransYBZFServiceImpl.java:467)
+	at com.bg.trans.service.impl.TransYBZFServiceImpl.authBindCardRequest(TransYBZFServiceImpl.java:452)
+	at com.bg.interfaces.service.impl.GateWayServiceByYBZFImpl.process1023(GateWayServiceByYBZFImpl.java:251)
+	at com.bg.interfaces.controller.GateWayController.gateway(GateWayController.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:119)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+</body>
+</html>
+2019-02-16 15:38:01 [main] ERROR .interfaces.controller.GateWayController -syntax error, pos 2
+com.alibaba.fastjson.JSONException: syntax error, pos 2
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 15:40:03 [main] INFO  ay.g3.sdk.yop.config.support.ConfigUtils -can't read dir from protocol:jar
+2019-02-16 15:40:03 [main] WARN  provider.DefaultFileAppSdkConfigProvider -no custom sdkConfig provided.
+2019-02-16 15:40:04 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param authtypeis null or empty，ignore it
+2019-02-16 15:40:04 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param advicesmstypeis null or empty，ignore it
+2019-02-16 15:40:04 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param remarkis null or empty，ignore it
+2019-02-16 15:40:04 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param callbackurlis null or empty，ignore it
+2019-02-16 15:40:04 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param extinfosis null or empty，ignore it
+2019-02-16 15:40:04 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param avaliabletimeis null or empty，ignore it
+2019-02-16 15:40:04 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param issmsis null or empty，ignore it
+2019-02-16 15:40:04 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstempldatemsgis null or empty，ignore it
+2019-02-16 15:40:04 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstemplateidis null or empty，ignore it
+2019-02-16 15:40:25 [main] INFO  ay.g3.sdk.yop.config.support.ConfigUtils -can't read dir from protocol:jar
+2019-02-16 15:40:25 [main] WARN  provider.DefaultFileAppSdkConfigProvider -no custom sdkConfig provided.
+2019-02-16 15:40:25 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param authtypeis null or empty，ignore it
+2019-02-16 15:40:25 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param advicesmstypeis null or empty，ignore it
+2019-02-16 15:40:25 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param remarkis null or empty，ignore it
+2019-02-16 15:40:25 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param callbackurlis null or empty，ignore it
+2019-02-16 15:40:25 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param extinfosis null or empty，ignore it
+2019-02-16 15:40:25 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param avaliabletimeis null or empty，ignore it
+2019-02-16 15:40:25 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param issmsis null or empty，ignore it
+2019-02-16 15:40:25 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstempldatemsgis null or empty，ignore it
+2019-02-16 15:40:25 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstemplateidis null or empty，ignore it
+2019-02-16 15:40:38 [main] INFO  ay.g3.sdk.yop.config.support.ConfigUtils -can't read dir from protocol:jar
+2019-02-16 15:40:38 [main] WARN  provider.DefaultFileAppSdkConfigProvider -no custom sdkConfig provided.
+2019-02-16 15:40:39 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param authtypeis null or empty，ignore it
+2019-02-16 15:40:39 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param advicesmstypeis null or empty，ignore it
+2019-02-16 15:40:39 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param remarkis null or empty，ignore it
+2019-02-16 15:40:39 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param callbackurlis null or empty，ignore it
+2019-02-16 15:40:39 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param extinfosis null or empty，ignore it
+2019-02-16 15:40:39 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param avaliabletimeis null or empty，ignore it
+2019-02-16 15:40:39 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param issmsis null or empty，ignore it
+2019-02-16 15:40:39 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstempldatemsgis null or empty，ignore it
+2019-02-16 15:40:39 [main] WARN  com.yeepay.g3.sdk.yop.client.YopRequest  -param smstemplateidis null or empty，ignore it
+2019-02-16 15:52:36 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"O/fX0ZKQCYGGutgrC+nrE5/EhH4VUiSu504tvZaB7wOXvazN/uBPsOnPkqB8u6j+buyUxO3mkWZLbYxqyyDKb60kZzhldxkXeLZ1Sf4yns3vY/8wbmueuhP92nhbeYOu6wBnxPZDH3eiixdKXmMWuzFjZD5TRjy5Y0z6Qi1sRJY=","data":"YkA5HEhBPOBJDXop4O6YEMZM4CTvFK14e/L52Kvu/z+qP8UDOjM6z/mY/2WIk1tleCBfqiYD6h1p6clZoIcUpIhVsPLL0Uu3mrAEdUxiKfvHAofCYUNRijAzWVaUtWyiuXHDxdCG9Py8VIuOpqZ+MuBpDMNzXdPyn009RsfpDCk="}
+2019-02-16 15:52:56 [main] INFO  .interfaces.controller.GateWayController -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: NullPointerException</H2>
+<hr />
+<P>错误描述：</P>
+AppKey is blank.
+<P>错误信息：</P>
+java.lang.NullPointerException: AppKey is blank.
+	at com.yeepay.shade.org.apache.commons.lang3.Validate.notBlank(Validate.java:451)
+	at com.yeepay.g3.sdk.yop.client.YopRequest.<init>(YopRequest.java:80)
+	at com.bg.trans.service.impl.TransYBZFServiceImpl.yeepayYOP(TransYBZFServiceImpl.java:467)
+	at com.bg.trans.service.impl.TransYBZFServiceImpl.authBindCardRequest(TransYBZFServiceImpl.java:452)
+	at com.bg.interfaces.service.impl.GateWayServiceByYBZFImpl.process1023(GateWayServiceByYBZFImpl.java:251)
+	at com.bg.interfaces.controller.GateWayController.gateway(GateWayController.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:119)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+</body>
+</html>
+2019-02-16 15:52:56 [main] ERROR .interfaces.controller.GateWayController -syntax error, pos 2
+com.alibaba.fastjson.JSONException: syntax error, pos 2
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 15:54:45 [main] INFO  .interfaces.controller.GateWayController -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: NullPointerException</H2>
+<hr />
+<P>错误描述：</P>
+SecretKey is blank.
+<P>错误信息：</P>
+java.lang.NullPointerException: SecretKey is blank.
+	at com.yeepay.shade.org.apache.commons.lang3.Validate.notBlank(Validate.java:451)
+	at com.yeepay.g3.sdk.yop.client.YopRequest.<init>(YopRequest.java:81)
+	at com.bg.trans.service.impl.TransYBZFServiceImpl.yeepayYOP(TransYBZFServiceImpl.java:467)
+	at com.bg.trans.service.impl.TransYBZFServiceImpl.authBindCardRequest(TransYBZFServiceImpl.java:452)
+	at com.bg.interfaces.service.impl.GateWayServiceByYBZFImpl.process1023(GateWayServiceByYBZFImpl.java:251)
+	at com.bg.interfaces.controller.GateWayController.gateway(GateWayController.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:119)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+</body>
+</html>
+2019-02-16 15:54:45 [main] ERROR .interfaces.controller.GateWayController -syntax error, pos 2
+com.alibaba.fastjson.JSONException: syntax error, pos 2
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:436)
+2019-02-16 16:02:50 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cI6uz7NY8Y9+5T0tTPS6n85S1+KsDTJc/Fv6FF8wogqYnviBe7fP1kkG3d8kWiG8nbZl8v6ObB8+bn/mfWDmMQBYWyBgqSqRVz8cxujJ6HgoLiwKPR7ouQcmAtTl9jme57T6vp4M/0P2efkX0mYz9gqbR95kNaYBeTfE4wdIJ/I=","data":"N8eaUr/2mA4uw/c7QnTi4gNeOcAl2oP2/o4WBIZ7fhM5ElSJwyDzgk5hZ1HH969e6EM8iE35O5Wfr4zXHQ1hYZ3SN2az9l6MiXlIP4g9stSssiy4q2mGET8mj38Ah1utCtDcK2e8Fxu1K8Ouk0+pd74Upm2eCMg0bh4bf4hbc3k="}
+2019-02-16 18:35:47 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"O/fX0ZKQCYGGutgrC+nrE5/EhH4VUiSu504tvZaB7wOXvazN/uBPsOnPkqB8u6j+buyUxO3mkWZLbYxqyyDKb60kZzhldxkXeLZ1Sf4yns3vY/8wbmueuhP92nhbeYOu6wBnxPZDH3eiixdKXmMWuzFjZD5TRjy5Y0z6Qi1sRJY=","data":"tVGu3scXlV63+gQAItrfsk/Z3qoxxmqvxHMsaJnjt6BbX1X/07zU8osf6a9cYKHORiQnaG45EgO/QcqN34XIt4G9DAQplb2TaiKRRIpFyUSrIY+0iUv7VCwe13y0USO/1bZqvxe54vI+9EN51XsNyExD+ojbQ2pVElxJh2cozQM="}
+2019-02-16 18:36:09 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"hHLFxaMuakgt01FuKS4NAdhX3qq4lqnmkS1lr36J1gtxacJfj7ik8llJYlkYdDKgUnJvzIsMgIsC6tT+RXOAjCBI1CfR1SEopJOM9VGm00qRRMYULJMSAuHkNarw+mBj17b9xFqsb/SCJzHG8tUuQzfglt5Ew6qrsDnnW0NJR9Q=","data":"HbjbTxzIW36ADVuq0eiGAjRJ/Xwj6YeH7n8/XN1ZfpuL7/B2M3FXMGOAkA4SIN4pgWhiM5Uk026PNlc717CR921E7BL0TKjEZcf3vyZK46P9hKj7OClqStITZcRhud6IaJr3rxhmgFNVpuvcI5XTZRN8od3O6ZGSw4+GML5gOzA="}
+2019-02-16 18:39:52 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"O/fX0ZKQCYGGutgrC+nrE5/EhH4VUiSu504tvZaB7wOXvazN/uBPsOnPkqB8u6j+buyUxO3mkWZLbYxqyyDKb60kZzhldxkXeLZ1Sf4yns3vY/8wbmueuhP92nhbeYOu6wBnxPZDH3eiixdKXmMWuzFjZD5TRjy5Y0z6Qi1sRJY=","data":"awNpGH4zB5YjZzheLtqVbqssgJRpoOhSiYqLg9OG2XTwaRKFChS1D49fKxWiQS5a5JU2Ht5AOXBvq5HU90LpslDl4tfXnDJQxxS4XyEtC02xDs2tDbCs75mZxNn2SOFYYItflOggb0FvaJlZrM8hQ9ubTOZS4LESqlpJdzXaEEA="}
+2019-02-16 18:40:11 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"AW4Ox8X9GgPZSRznHrucFOLJOiXKW84NjMPnnUTA5sbuxTnKUeGeAozgoQQBDG88PSuk5NHj43jXaigNbti0YgETPoH0QOHUj+DSOg1a752yU/3he/G4HAMdJNcyXHLAXtql2BnkPEFOmM7rsFroN8TUhQz+teSTzWcFU+NkZmk=","data":"Q3HyjYXuJfl0H/ZBx6tJez2Cwm6ZsvaJTg51tF2FETGnQVED0ehiHOK5mWiVkGdPWMVgMPR7a2SnZ+4jYzSd1DtBCfc33EIB5AVIpjBQwxcOAP8oSf6j9GLUyptlzfNDF/z33kLLShyVjO6HCdun0ag2kEz0DXjGDKWaTvH6ock="}
+2019-02-16 23:28:28 [main] INFO  ay.g3.sdk.yop.config.support.ConfigUtils -can't read dir from protocol:jar
+2019-02-16 23:28:28 [main] WARN  provider.DefaultFileAppSdkConfigProvider -no custom sdkConfig provided.
+2019-02-16 23:28:50 [main] INFO  ay.g3.sdk.yop.config.support.ConfigUtils -can't read dir from protocol:jar
+2019-02-16 23:28:50 [main] WARN  provider.DefaultFileAppSdkConfigProvider -no custom sdkConfig provided.

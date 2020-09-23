@@ -1,0 +1,2 @@
+2019-10-15 20:37:09 [main] INFO  .trans.service.impl.TransGYZJServiceImpl -https://data.court.gov.cn/shesu/test/api/entstat/portrait/people [Content-Type: application/x-www-form-urlencoded; charset=UTF-8,Content-Length: 98,Chunked: false] 504
+2019-10-15 20:38:39 [main] INFO  .trans.service.impl.TransGYZJServiceImpl -https://data.court.gov.cn/shesu/test/api/entstat/portrait/people [Content-Type: application/x-www-form-urlencoded; charset=UTF-8,Content-Length: 98,Chunked: false] 504

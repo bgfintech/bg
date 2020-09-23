@@ -1,0 +1,1 @@
+2018-12-21 15:18:41 [main] INFO  g.trans.service.impl.TransKFTServiceImpl -主扫支付响应：{"errorCode":"KFTSYS_CHANNEL_00009999","failureDetails":"无合适的路由处理当前交易","status":"2"}

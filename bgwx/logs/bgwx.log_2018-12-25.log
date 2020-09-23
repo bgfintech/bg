@@ -1,0 +1,20 @@
+2018-12-25 12:25:11 [main] INFO  .interfaces.controller.GateWayController -post body:"{\"data\":\"fj/sjjTDmMekJO70z+JiiIpZaRuN+0aBACoBHwp6A5aWhhXVZbZKZVj08PvhQoJY24bDHe73zLru5gP5y5HbT1YThUZiII7Sumv8keF+5ADTSog12kvAvRRTTgUmCkT4nhMttYjYK1Ov3ixAeOFFz/p7ucW5mZzvl4nOknh7vNoGsNqJ5bwzSQURdYQF4n9WqgNufkQrUC27soEzxaMiPQLTqk8SXho6XQbrMPr6t9Q0rjZH8TPZjy/yVwv2e2F2xSPWdhp1YaaAWhmg7zrxEtjFN4vSjkrFwXjGEfwKwgO6n43ayHEk/NAq/49xaP8nYLHRZfU1iR/8cLKX3Scz1g==\",\"sign\":\"gREY5VsL70rDBv9cOtHCJYlnjahHPBHWbG9gGLPIkWN9jgNkQhMuAP3zKw4SwiT1kHVO99Qe7E3X4sC8HwFDy/wBVfijOk7jk9N/rgm57nSDpvoaXC6hJm0IdzU3vcfYxjbnHKZl8vYcC0YflcgzAZ8hM8lE9//Pov/M6lz+psU=\"}"
+2018-12-25 12:25:11 [main] ERROR .interfaces.controller.GateWayController -java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:169)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:681)
+2018-12-25 12:38:55 [main] INFO  .interfaces.controller.GateWayController -post body:"{\"data\":\"UMikKPaIxhrCL6ri5a8Ebo24Fjtt1h7cCT3BK2dkKN+kPPxnewPwZHR+wQtxywTkKZBmxwbUyk17JVMzb2ofbD6e61wpyCcl56rW8dOqQDRSpuz/O3pkWm3D6o66iXFKQ4I9NYSgYl9/fbs6/atUri3wccTgfff/RmmB1fECOkPAy9CJ2VhFuJZWMBg8p001YMojqkVFMkNtokowlUchECIlAdPDtKv0dNAqn/RH6IJYHEoLU/KAZqyPh4WdIQ48OxVuTxr1DMufOEMpvZRWZ+j+9Fukb7MqWjLTqOdfUUfKtjoUkEePmvvNc73nVuC41klE4M2XqIXKKcIJNPLyhA==\",\"sign\":\"altvwxvAk9X1Zq7Y2Hx5PMges6J4IBy+iWdvl2XUbo0zL9VmhFd0X1BM5vzlsYvcRxW6rSvJPyg2N97qeCL7DKbm9H9i61v/7FWL3ifh87FSq7iH3JI35DoMPUwE35+CKl3PWNWLDtp9/xpzhcK72T8ugUSN17S9I+K1hLfmWmo=\"}"
+2018-12-25 12:38:55 [main] ERROR .interfaces.controller.GateWayController -java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:169)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:681)
+2018-12-25 14:41:28 [main] INFO  .interfaces.controller.GateWayController -post body:"{\"data\":\"se6t6y4wlebdt/vNGOews/M1CzmT3OmbH7PzKIfTT4e0BJR9IwtbLsd0h84kL1VPKucDaz3QOpCuYmjH7ZiEztPCUbPCk+ZprxB1jfGN8oLNnwtzXQvI1cKc0IvpUwVjOv3GZpp0DxVPQNmXlhmVttiKttjdi/0tg9rnnIzVtoM=\",\"sign\":\"s7e/lZlUdDrl4K80yfizVyVHaP33nI6UsrBJUZ/ygmhjj7DWMS8UR+dPVKbWRcwCDBWxwug3t084hw2o8kZNkOEhTPFdR1+GRv5AkecUs9bDhenDKY3rfilOW3B4AnuYJgm6X4g+bPY9G5buCmu8ai+80V3mtacOJdrVT85tB0k=\"}"
+2018-12-25 14:41:28 [main] ERROR .interfaces.controller.GateWayController -java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:169)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:695)
+2018-12-25 14:57:57 [main] INFO  .interfaces.controller.GateWayController -post body:"{\"data\":\"TEgiTI+sYXGy9dBHyHpfXrJgMafCfHyEj4XDRozbyFZVAHenz3tOrZj3q+11AdCfx1cU3VvzXkd2nYoAhNqP8mUDgOUzhTYUlL7T68cJ2NNuMH8plmoiaew5cFc30zY1VzdvDRDh0sjOk7qZeuaXeDkRHXLFCCiqP7XkNphdMEE=\",\"sign\":\"s7e/lZlUdDrl4K80yfizVyVHaP33nI6UsrBJUZ/ygmhjj7DWMS8UR+dPVKbWRcwCDBWxwug3t084hw2o8kZNkOEhTPFdR1+GRv5AkecUs9bDhenDKY3rfilOW3B4AnuYJgm6X4g+bPY9G5buCmu8ai+80V3mtacOJdrVT85tB0k=\"}"
+2018-12-25 14:57:57 [main] ERROR .interfaces.controller.GateWayController -java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:169)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:698)

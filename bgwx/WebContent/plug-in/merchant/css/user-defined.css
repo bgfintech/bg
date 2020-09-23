@@ -1,0 +1,43 @@
+body{font-family:"Microsoft YaHei", Arial,Verdana,Sans-serif;}
+.form-group{margin-right: 30px;}
+.form-group label{font-size:14px;display: inline-block;width: 105px;max-width: 100%;margin-bottom: 5px;font-weight: 500;}
+.form-inline{margin-bottom: 30px;}
+select.form-control{width: 179px !important;}
+.bpageBtn{padding: 0 0 30px 15px;}
+.mr12{margin-right: 12px;}
+.pd0{padding: 26px 20px 1px;}
+.remark{float: left;width: 812px;height: 80px;padding: 3px;border:1px solid #ccc;}
+.posr{position: relative;}
+.posr .warn{position: absolute;left: 112px;top: 38px;color: #dd0a20;}
+.form-group .need{position: absolute;right:-13px;top:0;width:10px;height: 34px;line-height: 34px;color: #dd0a20;}
+.auto-tip li{height: 26px;line-height: 26px;padding-left: 5px;}
+.auto-tip li em{font-style: normal;}
+.auto-tip li:hover{background-color: #1e90ff;color: #fff;}
+
+/*上传图片*/
+.imgBoxcom{float: left;/*width: 200px;height: 200px;*/border:1px dashed #4d4d4d;border-radius: 5px;text-align: center;position: relative;margin:0 30px 30px 0;}
+.imgBoxcom:hover .imgDel{display:block;}
+.imgBoxcom i{display:inline-block;margin-top: 70px;}
+/*.imgBoxcom input{width: 3px;height: 3px;position: absolute;left: 0;top: 0;background-color: #fff;opacity: 0;filter:alpha(opacity=0);cursor: pointer;z-index: 998;}*/
+/*.imgBoxcom img{position: absolute;left: 0;top: 0;display: none;z-index: 999}*/
+.imgDel{position:absolute;right: 0;top: 0;width:16px;height:16px;background:url(../images/close.png) no-repeat center;display:none;z-index: 1000}
+.fileBtns{width: 60px;height: 30px;}
+.fileBtns input{width: 100%;height: 100%;text-align: center;border: 1px solid #ccc;border-radius:5px;cursor: pointer;}
+.fileBtns input:hover{background-color: #b63b4d;color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

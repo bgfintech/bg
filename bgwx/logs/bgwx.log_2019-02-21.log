@@ -1,0 +1,80 @@
+2019-02-21 14:49:54 [main] INFO  .interfaces.controller.GateWayController -post body:{}
+2019-02-21 14:49:55 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:368)
+2019-02-21 15:29:14 [main] INFO  .interfaces.controller.GateWayController -post body:{}
+2019-02-21 15:29:14 [main] ERROR .interfaces.controller.GateWayController -
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:556)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:368)
+2019-02-21 16:08:29 [main] INFO  .interfaces.controller.GateWayController -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: NullPointerException</H2>
+<hr />
+<P>错误描述：</P>
+null
+<P>错误信息：</P>
+java.lang.NullPointerException
+	at com.bg.interfaces.service.impl.GateWayServiceByYBZFImpl.process1003(GateWayServiceByYBZFImpl.java:668)
+	at com.bg.interfaces.controller.GateWayController.gateway(GateWayController.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+</body>
+</html>
+2019-02-21 16:08:29 [main] ERROR .interfaces.controller.GateWayController -syntax error, pos 2
+com.alibaba.fastjson.JSONException: syntax error, pos 2
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:365)
+2019-02-21 16:16:48 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"U0YfAlyBnGxBctcytkKi5dIKIoMJfxXf4j7OgQjzvvDNQizZiiqbhJg+vdzkrteLCXeWkE1UfzxCX5zYM6w/gdvrWw/4RYvrb87rWrVA4F+M9MGx6PACUsg05nm4/c7p4sUC6fFziaiYATcGl8cgw0Ls1T0Y5TLv/GEA5vD617A=","data":"pXrjRs1NpDJ0dj669afIE0Eepqav5hLQtelTFRjrL/8devo+NVEF0GjmEYXyllEgrKUp1zNnBk+2h/NvjQe6UwwUEDSm73DqTLn07OEWEivdPrf0ql39CO4UH/3AGVeIqDNg5S3oaOJe9X7Ln5d2p2yz7pks43UsMLuzCmb+jFLS1qanvYACkecFTlfUdBNqfc3DTknsqBRtiBe8wvG/zFILg/rKDbyiCmcYua4rH4qkwVDCud7fEp9JpX1FVrbdoasZXbUd7FDyT2vVY4z+j0vr4RiT3mTefn5m6DNf2/Gm556JCH7vM2i2/f+AhBBpZAQXvOfaog2qFiGKgaxntg=="}
+2019-02-21 16:19:14 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cEW2dJ4VhwVtBINkymcXkX4CaQE0RnNWbSDBWmOR6ekz2+wDDR0GuBstfHoTnL6lV1EVenkQlmnn/oIe/mSYHNnXa+Q7f9dyfW1iQ0YbbC0VdQ2DxvlCUO8TppJJiLJ5ehXPpAD4T0hERw5TJR1aO+O7+8Q4o3qsFs9dUpuw2dA=","data":"E5v+9pfUCYF1JFB5+vrG8LPw1j+KhJkU+xarsRiBZHAZlZjczUczczV0da4E25OKkpavOEGoJNJJP343CMldpQn/KAE8PuBKZzrrzGKJcghGF9SYTo1mAtRU4YesugYE0/Y0V1g5beVpRYU2bz4rByb6WA923x4y6UIByYqA2JY="}
+2019-02-21 16:21:18 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"fMsbGdTl+plDfsRkVmrdPxXZR7O4k/8PXLNhMv67cwONAFbLaKcY0dlOfJXOfgB6m0iZsQi+oFUipRh3nB1TJ7UuJcBfDxTxE8IfL7VtXIu4j4MRXZYOM0OXcv25lPP1K7dfK364XM5xXDSOJkjQgbIYLh2OhcGesVjNPp/2hdE=","data":"Hy4xUZVGDRmNmtef84hG/xz0lJscyUfip16PqZy13mZ6KN2AKROYH5rD+g4YSYGivtkXT4bPNjm5JQ5vggSJbaD0qm2XR+QDtha+hveiyou9a50l1qm/gbL6NU7MImRFDMMUeifxVDv+LV1XbsNC9+iSfZWH9ZQACv4rMP9kdZYQHrJyF/5/YHikVxmlv0sN+IisRfrrb8HUX89rK9U8ijNxySYxOf/X2U2f/RcSD3sS5p5wkP8Wvpte9sACxf4AcCUXSkPIuLvyFC8I48kZk5AlOdfHQoTd3972VJApBGAeCgM8bq6DyoJJDV5/hiVwd/lVX70VqyT2c5FS5a0ItQ=="}
+2019-02-21 16:24:01 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"mxjWTIxgjQ9NB0+zCejaj5XKebQv+VxhYhAb9Eko+zGwqPHBUMQg2IB7toVmVqRlgoxM3RRSGzMQes8iEApGjaNJrFsWNM/sQdc17Hn92bGZRLlp6hzmtYijz93Qa7PdTZqPFg+Np5LHDrqSafNamqbuhzPBlCJgcmrAe9fljd8=","data":"zdPO5I2tKgn+JoJR5YJG/MKYoT4uIUHo+dD1z6iag62SyQ/WmlLlVa56Tqvvc6L7k3uqZcuctzVYZbPAigGu4NAFF6BIMDemP5mocfBnJiQEHgzQsQ6uRcalVWJXznqKutG6OdeDJLe27+G9mLiuhodDjk0bhuIUqCy+e+mSYrxG5SdQk9K6Awzs1RPSSXIId+RElZjrLGwq3forB2kWT2cjEQwqqJ9vRMablvoiOr70139J5cOZtIbABLxluouT+uPNeosbdx9VncnwQ5Vz8L/KbIrxXaYBcEUvIn7hPhkrVwpUqvfqXG75OIZg+ypRaem7JWWevYHu/W08BZfEaA=="}
+2019-02-21 16:28:26 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"fMsbGdTl+plDfsRkVmrdPxXZR7O4k/8PXLNhMv67cwONAFbLaKcY0dlOfJXOfgB6m0iZsQi+oFUipRh3nB1TJ7UuJcBfDxTxE8IfL7VtXIu4j4MRXZYOM0OXcv25lPP1K7dfK364XM5xXDSOJkjQgbIYLh2OhcGesVjNPp/2hdE=","data":"pQ8xW2/BBBLICtunjJ+RmFdKYwshZlFe76jElaoqy4SqcpwnVttFd1VxnCdTLUZFNmGTlkX4FoGhLKY76TU8AzRU+R59fFkj3MFBk1ZKxhmRQqvdFyzVVDLrcNhC7+27mjrmIA+80zMT7y0M17Qci5TeRvBODUO7R0jye+jayWA3pweeBbyW/TJfrg94q6RL7Vd7gF69I16fBv9NUe8KDNyR86ptJ/u6/jgi877zTczlwxHYVt+ZEDTnc0PIqhVU+WBDN3J8OU6C54R/zCLWN8gWcZniNJTqnwGKbsud1Bbfl4DPsYdmrArtDQyiQYchaBV41EnFI36PCRzAtfelSQ=="}
+2019-02-21 16:38:48 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"fMsbGdTl+plDfsRkVmrdPxXZR7O4k/8PXLNhMv67cwONAFbLaKcY0dlOfJXOfgB6m0iZsQi+oFUipRh3nB1TJ7UuJcBfDxTxE8IfL7VtXIu4j4MRXZYOM0OXcv25lPP1K7dfK364XM5xXDSOJkjQgbIYLh2OhcGesVjNPp/2hdE=","data":"jHUTKkm0rsYIufi5BDweobManpcx+MdoFCSh20qvAxQ76q2KDSfI72zVUfRSRd06/oY5rjApz7P65nWqHM4W5cgvcmYNewOuRrfCxt6Gx7K5WiizFsT11jwEj/ITheASd54v9zycgDXTZCl7rje9vdzYPBoTT+fsY8K4+dCmH38BbVKj3unUJHtfjb7M+e2tdLNBQ1VvkZkwFwSWhKOHWg72WZhVvskZJf5waogVnYQueEKf/+6TSBc1nIgxUhNW94X07BO3jqCIMhXc9+MK1dJQtuegJnVmvj7H86iEgSCbJXUoLW+fk+LE1+LqL7wbRC1WbWgve7mcxPxD0j9/0A=="}
+2019-02-21 16:39:40 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"cEW2dJ4VhwVtBINkymcXkX4CaQE0RnNWbSDBWmOR6ekz2+wDDR0GuBstfHoTnL6lV1EVenkQlmnn/oIe/mSYHNnXa+Q7f9dyfW1iQ0YbbC0VdQ2DxvlCUO8TppJJiLJ5ehXPpAD4T0hERw5TJR1aO+O7+8Q4o3qsFs9dUpuw2dA=","data":"n7AJwy92OvWANU26IsiAK0rVmI8CeJL3NoAdVQQ6R4o7O3PDvGqWLL3keXCQl+zDTYqI/ee5PU6AUMfFmRtPLqVxlaKTD9c4odkxp96whbbdgw4N8eMYhfKwiL2GjVoBSv2wkkhr7k2/J5egh+r/+4ID97ldXv5aKnJDJ6wjtW0="}
+2019-02-21 17:17:17 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"sRrTMNb4qIa9oPfhyOiBKn1uHWlJ1ue/OXOhq+5PHjul/BkQggG0wurI1huNP0LHcgVTDmqVan5FHjMnfWe9TS3C9OQFNTIG2GyOfiQBylmEu8PBFEY0J4PVcnIa8yCbYIvud7v3vmUqgmyRbvEpfDb0+sufvpALbrp/OLUQ1VE=","data":"dHvcC7rnXArXtqaOvCvp9wQK4/wKxjSEjwb1WBvh4hVaht2AzENeufs/FBewtFxUgYDj4LJnehCrSiwPoHdHzCkPBgt1ftJlDyrkNv+wg1DR9aJeQojCXeZpcSwYvCZLU/WDx0Qq5Sb8zpSbhccPq56ly8I/uxXJ8TuzcDBIjKE="}

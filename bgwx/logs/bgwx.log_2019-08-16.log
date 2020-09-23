@@ -1,0 +1,8 @@
+2019-08-16 13:33:22 [main] ERROR com.huifu.saturn.cfca.CFCASignature      -signature error:
+java.lang.NullPointerException
+	at cfca.sadk.asn1.pkcs.PKCS12.load(PKCS12.java:149)
+	at cfca.sadk.util.KeyUtil.getPrivateKeyFromPFX(KeyUtil.java:66)
+	at com.huifu.saturn.cfca.CFCASignature.signature(CFCASignature.java:80)
+	at com.huifu.saturn.cfca.CFCASignature.signature(CFCASignature.java:50)
+	at com.bg.trans.service.impl.NsposServiceImpl.sign(NsposServiceImpl.java:363)
+	at com.bg.trans.service.impl.NsposServiceImpl.main(NsposServiceImpl.java:385)

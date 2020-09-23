@@ -1,0 +1,4 @@
+2018-10-19 20:07:29 [main] INFO  org.jeecgframework.core.util.LogUtil     -[org.jeecgframework.core.util.PasswordUtil:main():193] - 明文:13833331111
+2018-10-19 20:07:29 [main] INFO  org.jeecgframework.core.util.LogUtil     -[org.jeecgframework.core.util.PasswordUtil:main():194] - 密码:1
+2018-10-19 20:07:29 [main] INFO  org.jeecgframework.core.util.LogUtil     -[org.jeecgframework.core.util.PasswordUtil:main():199] - 密文:c79cb119a3c69fa0e0c144bfabcd75fe
+2018-10-19 20:07:29 [main] INFO  org.jeecgframework.core.util.LogUtil     -[org.jeecgframework.core.util.PasswordUtil:main():201] - 明文:13833331111

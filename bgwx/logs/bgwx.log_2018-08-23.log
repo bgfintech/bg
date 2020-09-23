@@ -1,0 +1,151 @@
+2018-08-23 10:36:33 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 10:36:33 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 10:36:33 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 10:36:33 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 10:36:33 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: POFUyuH9khqzuqcYkdUMdur+tMvHBjYXnjeNg2q+N3Xa6STyLDgutAXvGsQIERY27za/y2ySTwQMJJoSFAX7Btte7g67AWrOmFX9T/DiAYtnL3BkOYTziucbXCZJnGs3pbVuOM91+7aYTTDH9IozmiQnGCG8MmJ4nRoi3yshEQL4kAbraYNu5vgz+UJRi28lpTxy/taotsGmxFoFrUTSRrYDjM5IkQfAiDkFUoy9nto2VGre+eDGcWctdrEL9VXyLv394telZaKyrYdvcmgI/7xpDHackx2R88mCwAcFJI6omLO5xGrLEHS210n6Vs4bSWijL+Vbwaw41BnCSHQCZA==
+2018-08-23 10:36:33 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:35:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:35:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:35:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:35:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:35:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: OgaxoCiFQQAHHAHah8PKTPzdSmzaHOaG+7OeGpjqgasD16k35mPR+XKS/P5IXYUpS8B86Ho9lpUiYwq5NhJ8ZohVq/OiOfKNRyOao26xMvVWgUU9ncpHj1IW0LjfYpiI/QXrO7Vt3jqhi+qOiBER+7ElsP7yZWFjS9TutEbLaOk2h36Z3Qr2w63mMIkcfLYhkFoTUvfvnbRFtcCXjiIRViBRjbYBCdX7szWocUpQhVjJpMMjlGhdHVAb0+OMmVeOBz2crssc03nLveI7QPVUbRkS9SUp/nJw5Z5IWvbBnw9qJvCoIX+HbKeJXfzS6aVRgFjAhr8XMIz2Q7xbNNeykw==
+2018-08-23 13:35:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:36:22 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:36:22 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:36:22 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:36:22 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:36:22 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: YFwoXjdGnqUJhikXxsmWlQ14KF6K5opjnFNKlhmgbzOs+R8Xy7Ubbi+rMNAF5ulAO6K/T34aNOETvTlsZ3o7/5faS4RXdU40O9aft8O1khLmyUqW76kGDYYcMDQdh2gCxsMiqd1fdb9jH+wqsK0xsccabsE2jS80ijEMsc74zs6rxlNu8a/r5TT2v7T5e8Kn5gHJj3GtfZpH330jhREWAp1n19UQmPxyrSkWoeELlrINdfymLa1Y9hLM+9/BrlLNwYx9Rj782TUQAgbSK7qiDnYXT0miAyJ2UeoiV7dzb+prlkndgZCEYJ/XU0LQ6e3pWUe6uYkAJkSlPUoroOQEwA==
+2018-08-23 13:36:22 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:38:35 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:38:36 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:38:36 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:38:36 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:38:36 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: aa7t7A5xribShER1faXks20D/o9OXUhbXJHSWRggnDeZLbg18yeeXxlvap+XjIoosXFR9fPUVIvl10jg6fLsfz67+gfbmABy5BWH31QZII1Hw8JQS593ODTKcY12tqbH7seMFLvT7PIIf4Hn9mbN0vFlHDaKECcl+FhYX9OWq4XguzMyRZcJYMiuyBHyUFYbkyDJif14pvwpXUgIQPjtXG2PKX5vAvQxAIrKSAFAYm0dsLURLXHCo7A6yqOXawvtiHYeRp7hiBrLsfuusag+TcWNcQYimFd0TPIva1aYpccszsAF76v6ktYbJuDcc92+8E84gZAj5LVC2cWr0BjCjw==
+2018-08-23 13:38:36 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:40:57 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:40:58 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:40:58 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:40:58 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:40:58 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: nbYyyRJ/ibpiTcyDeQOqCUUZzP1yp6A0zcr/O+RXpdMHhIK1ku8uEHOJzucK2vqhEeMhbXhzaInpUeSj81o/xRHqnbcP4nOelLHg5+SxxhOGZAT8LSiqpmXSHUwtyJPjjuRJnS4TImfWSKECYhJxhuR/pBKgWURIjylwAw9cnHhgyXQNb+L3RCmQ+zi0nfBzr01Uqbv8QiX4m3DZ8vr27Fh46UAFVKFdnaNGqi7Br5/o3WFh0UNCzzp81+Yg9hOVKM25lL16uPxE1iA90gxA6AwdPYP7pwBosqTJ6Hjot2gvi8asX1MuR4VW1yPN+rzq2pIBcUVj2aDLaWADjAAEVQ==
+2018-08-23 13:40:58 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:41:44 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:41:44 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:41:44 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:41:44 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:41:44 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: kEsD5S6j3iOhGYh8X0t1IBBEWpwLftMNsmutyXhgfiQ+mj+iT1RnzZPZS/LxwbA2f94a2P5/aOkeGaJ+thZ+E3f5oFRCfsn08rwRiDGOd3wky54Ew1niN43PhVAU4x1pOBgFF+7rgtloDG8jC5kiqjHV+2Rc3YtOBpNE60X7UWDsd7SDuhq6QpIVAwljsd6UhaAaJETMVIhUugoepClRnCdD6LJruiufLnRXe7plOet3DRD2TR7WxK/MgU5DNJEvnnjz/83Pb7RQxe+6LIcOtG7qF1FhsWLJp6V8Et5UsxuGUPJhsyRJ53QGXE7jONZ/+MShzKzrqtHF+Ik0ow4Dtg==
+2018-08-23 13:41:44 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:43:20 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:43:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:43:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:43:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:43:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: YusHszD4qMnZ0Ai7Q+heTspk+RQVSAJG0NpmuJaqY+58SxdHk+JQX35wlUko6TgoslfQZ5YrzvEJexPz6Oci51HggR02ifplrsWgi/1qTI8MfrMRcKU0UI5CqmatbLGd2PUwp5/IQ+mVci4NW2AzBvtRzIttSH778wNcKoOtHAnC3YHta5B4wG0mTtMnRhNWSsdrikz9Ph3uhNh6TZgdz3wlR9DtpmRfYZUCwrsbrt+eUPPvDML+dVD86+5ReKHUaCouOICLn/xa4Jehkk2FqERQ0JpwQ31dfzwXBXTC3XCoiAkeFrlrbDeRu+WZtOWnVBnP+i6E7IJ3YTXt6JLhfQ==
+2018-08-23 13:43:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:45:23 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:45:23 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:45:23 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:45:23 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:45:23 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: vMqfYbh0APvRvQ+PI7Z8N5IOYho0fjVViiamA7Jjpm+KkPDXYnD7VzoNkUymmyq/0JX+sSbrAh59Dx+goCkLymtczcjfp/sP6MHKl1dBV43ZGEPklTLavq/lLnTtDiC6flu/VkK86DBqnEWvHxSb/0UP6xGO39KQM9/8kaPvy7OqQ6ohXaWIQWNFYOYv9U0isNAT25cEdcTVSMw3PXHZLf3DE1Wq8f26xyk+jGkfoue2+AmnAZbBhvNsgnDXnYVnemY9FPfcU+BXkB4jpVe6Tk5OdUGWVIeLEOcZ4XU6ybk7pPXeOz6DiIEr4zcb2ZMoE7zQWu0J7E0tej5fLzzD7w==
+2018-08-23 13:45:23 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:50:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:50:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:50:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:50:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:50:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: bE6bMD3nDWYvjifi+ttqQJT19LTUxBLkvit8+J7edqRyhzVkAfbfKZKkeIpAvcHEfCh3orBJHOBNvvxBzuaeYNVVQqIwvREdjqG2p4FBRFKWzK2WEXP7KPcm4bbJpSZDeSFHbu/vU3+fXM0J1gVafmbITy7CKozxKN/8shd+5b7Lx8C4JY+p3tTJp5cb7TRfKTRYZpxlLpgJLaQMDn/BSiIJjwgeKvik0Ve1jWfcUD38jUyoFVmhLbrCaF+A3tM0Ra06AegVAGplkRelgAmAaWLP56rPr854/07MPvqnAqWlhJ/yEBcJB2O9EiOPoFMirdtpHBbqZat1Bxb266IV+A==
+2018-08-23 13:50:21 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:52:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:52:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:52:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:52:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:52:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: AhyzWlw2P2qEjAgo6t28jOFNQXY7xKW6+4YcJdgu7BOLZa+whl9StBNxDNoZXjPswbiiq0EeBB4Uj4d0nG1YYJfAmkGYE98lz0obwFla8DoCm0Bq7WU+OJDzQtQkA99Ori+AbHNw741ot1wRmwAaIJH7DSrDQzRdJ9Il6UmiRpzaPXBaYKu4UA9E9opX27/yisjwNcdhvzaItBiXT3Iuy35gKi/tmgk16I84/LZ4nKuxD5fTd48Kkqnp4kRaZEbMDnPt91bawONDA2eevLd6vPnJKmVNp9+6TCUMhXz1dHi0eZK+pM/EDrrg44yIV3LfDpa5veERMK6J8k/i98+nag==
+2018-08-23 13:52:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:54:14 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bank_id":"03010000","bg_ret_url":"http://192.168.0.74:8001/npayCallBack/asyncHandle.do","card_area":"1100","card_no":"6222600910035545003","card_prov":"0011","cmd_id":"104","dc_flag":"0","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022022","user_cust_id":"6666000000046231","version":"10"}
+2018-08-23 13:54:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:54:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:54:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:54:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:54:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: Ircb0DXk8Bl27T24YbOPKwOBxilyXtS9qN1lyvkFXcuZ/Kyhw+31gHNzeV1B940tdjHCCell8DRmtAekUNE3X6+ZIw+xLfm7CMgfL6TuL+P7QsgAIDzBAgOMAZsZW68mqfEeGIg1pZRms90Dxnp9/q9SD4q0uuv4KEAKFGFFlZQmb3LoB7Cg3kW+qvYrdSRrnYtdonmTZnLqe4TxAVHaBJ8HMXF9mv43mTdkcf2B/wxiJ0UPNDhx479a+C4dvKqWHthhvX41X94DhkxrnU7ADeSusPFljQK0y8OdNH4CbPNyYs0KNwwGCEkBeIHbfCF4fWjlAyB1uiB4oMdUFR6jQQ==
+2018-08-23 13:54:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 13:54:55 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bank_id":"03010000","bg_ret_url":"http://192.168.0.74:8001/npayCallBack/asyncHandle.do","card_area":"1100","card_no":"6222600910035545003","card_prov":"0011","cmd_id":"104","dc_flag":"0","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022023","user_cust_id":"6666000000046231","version":"10"}
+2018-08-23 13:54:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 13:54:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 13:54:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 13:54:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 13:54:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: p5MXm216iNDikpdAXvhIAizGOGzU+/9ds90O6f+FV/kapqbajO4G6Uqd+KJZRkcB+1KTA+bWHkIUCGc8xChiNlqnp6a67606wz7QvofhD9Zgy0bY9UCdxIbBrUVsJM7pq7mBybOGPrja6atuPQtLk60ywL52TkUAJj7DmeFwasV1ktzrz49b5/apIoSc85gpGJfQ1R/vLTpSJk78OFPtBrLCF5h1yzcB98xnxt1o+KCnZPgpRXvK6W3tIs1jF5puRFPz1AVcuf4rd6423HQCzi5UJwds+we0ZJ2yx7kBI3+alfqOAvPvB3euDH1QrRWqQd7+jHrr1UuH1Db9uzhM+A==
+2018-08-23 13:54:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:05:25 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bank_id":"01050000","bg_ret_url":"http://192.168.0.74:8001/npayCallBack/asyncHandle.do","card_area":"1100","card_no":"6232510000000001","card_prov":"0011","cmd_id":"104","dc_flag":"0","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022024","user_cust_id":"6666000000046231","version":"10"}
+2018-08-23 14:05:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:05:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:05:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:05:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:05:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: Ykq7c/EUlO2HAGkK8wGnn8oe4X/r1/OPlU/2+G/7f8AGomotTAa1Rbe2CkjLjowb6Sk8q5x1PMSqGfResPjKU0q/S+vBQZQHFx7L57xLBNwwHh79Ad0yvUTnWpHovKrOjvCdgesGuvF3/UgEdFvqEjzLtTUuTwGwvgm2z1kDmKg5lPIB2fnfbcY0ZaVnGHPaymSsokHDj6SUNpqqtSguYMWTqwfO+j08nobmxyQI61dyPRYIQwW/4cwFAe94zJjQTlp/l/V0EFFWQE0ajC2B+k4IGTNAhDecj9F5KRodR4syddMK9fU0X+BreOo4f+VsBPsXYK2kYpHZdAE/5yXwtQ==
+2018-08-23 14:05:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:05:52 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bank_id":"01050000","bg_ret_url":"http://192.168.0.74:8001/npayCallBack/asyncHandle.do","card_area":"1100","card_no":"6232510000000002","card_prov":"0011","cmd_id":"104","dc_flag":"0","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022025","user_cust_id":"6666000000046231","version":"10"}
+2018-08-23 14:05:53 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:05:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:05:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:05:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:05:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: u1YdF3bAViAf5TgYIyN/he7OQveUOhntlq+LA/Z+9ICUPIA5rLb4pyN3nE4tF1Ici5jeAKgxPAagA5UCmsHbb3fLq3HGRyrnbrZh8MGxSMzUqaXF8TX6nrFON5TaY6/KiLUuSdS+5ToT64pSlEHMfb15BQtkasecgEZJOJgVco+6/tJUu6t76GJSDJS9OLfMdnUwQNQKh8nZYZP7aRL8DLvcN1lqtUrs5GdxTA5Vbk98Th1MDmwAH5+pNFPmZwPPddMdinepWFHHMzkM6LPfX77bla9chY+deKOW08Lc8BOCt6XV3AcmLRyVKIpg2idf1ZGmDb8YrxWAg9qjhk0lnw==
+2018-08-23 14:05:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:06:09 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bank_id":"01050000","bg_ret_url":"http://192.168.0.74:8001/npayCallBack/asyncHandle.do","card_area":"1100","card_no":"6232510000000102","card_prov":"0011","cmd_id":"104","dc_flag":"0","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022026","user_cust_id":"6666000000046231","version":"10"}
+2018-08-23 14:06:10 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:06:10 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:06:10 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:06:10 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:06:10 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: cEVw9Rr2B5lwLZig1FvlFBxjaNuKS8bv7SF8swyHRmsPWJ10zsWuY9lbmhM2WWXexJLRcuoMbL6ZEFtERfhy358o6+Vi64S7Gtg1SdKg/vkh+eo43QI7d5Trx2TtugaNfQ0YfYZG0xm7JbFiqIgkhC91QqypjkF2hq0aRHWaCv4MG+dfSKPHh5TEbSppelPPbqvs/wveyj51Fmp/RF5c/h7zJFyY4lkJVTtfsR1mlu4EJo6FDPU7qMHA6ZWiuc5XVwDgFDcumocoTgVW+LMMo0mNfP+QmrUgHthbDMjouqbgBMGJosQlv73gsPPA4w+lSbAmUMvqydroxsdohkWp5Q==
+2018-08-23 14:06:10 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:06:23 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bank_id":"01050000","bg_ret_url":"http://192.168.0.74:8001/npayCallBack/asyncHandle.do","card_area":"1100","card_no":"6232510000003102","card_prov":"0011","cmd_id":"104","dc_flag":"0","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022027","user_cust_id":"6666000000046231","version":"10"}
+2018-08-23 14:06:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:06:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:06:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:06:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:06:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: tuYThopjEXrh4Gk/teF2EeWCBy6Z3d26VMDV9RxsGx3bCp4k2aokgZBHHT9qGdJmv+E15NQlLzPbd2F48nORZrKtPOfv59flzckGoYpC1NJnl615C0XAL1AUnXOvfMkOuCS8B5HCqATbO/vsyfy1L6szCPh86tHZ9w2oekWzJZKODng/6lyN9kk19i0DR75H9QG02K9iY8C608+MYFZ8c8jc5+RFP41INKYJq8RQ8uwiMUkBdVoP4CHWaYvhOiNANWBPZD9g7BYkVfqQtMUGm3i+Li+IdzfYij6qkicxDkWk+uUSGlqcL1HBEFeYNCcvpVJAF2zuMQkUlxV0/8C30Q==
+2018-08-23 14:06:27 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:28:54 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"cmd_id":"104","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022027","trans_type":"06","version":"10"}
+2018-08-23 14:28:56 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:28:56 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:28:56 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:28:56 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:28:56 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: r7AdS/Jb6JWtNIkFTwImZPFIUlK+v6Xw1uzPML3+9ZcTdV3lkwhdegTQCQT4NOhoUMCihjZ1r/kmvAcRl2YnmgtJIQwQFKoodyB2Xi8dB1Ij2gJZZ91oHr/AxYH/+L9ou0n0daIn07+cq3c4o8QgtFpgWGDSrRCzA0h9arJc+myAHwkmmHlldHvZQsKvSuMN3Tj1bIfR3AJvTd6oYpvLd/k+KcNRSPSkKmh55A+rQ+e2GRQpRYGU/kG4/ub5sawOSZpKm2J8lrsD+5qqO8g18Q7thjGYRvm27seBbEWsJCT7wxgDxbvgQ+bhb/Ar2MXKYlZg0wVczOzWeLhggCu9tA==
+2018-08-23 14:28:56 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:29:16 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"cmd_id":"301","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022027","trans_type":"06","version":"10"}
+2018-08-23 14:29:17 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:29:17 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:29:17 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:29:17 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:29:17 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: sAijJfCv8h1SFGjXGNk9JKqJl/OrZfXHglwDu3hr7T8M6p9qsZSz2bzh/h2f7CUV3GZBMc9s2wyvwUSmC37aboWYrhCt2HjEb5r4dqS+zeivihTOkaSRBW94ZYTgeh7JJEovDmaHSs2aFf37IVvKeUe3mXs8Nipzx0UpLdPJ5q3cPXzaNmAyVp4Lpx6ZK09fWOHmmEIlwgQmLHJE0ELv6+NZPAQ6Mjr5omICRoPtnfuJcE74ovpy2PZwcdPV0FRZbmErRrTkiXpguxDBuuiTsddoGrjVVMZyfCHxDoK7pwhICltlzA40x+2P8v192ytUgUIVlLx9EGpnMMM8GEy9yA==
+2018-08-23 14:29:17 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:31:52 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"cmd_id":"301","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022027","trans_type":"08","version":"10"}
+2018-08-23 14:31:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:31:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:31:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:31:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:31:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: t3Wqi3PXtStkJnSIU37+jMQTdlOlma/8PkGJ3SX0CaP4hShv52dnL5K/CEzRsb72+6SwTmaWd6sIpJb/X+IGuMHdB03T1XA2uZxIcR2MYvRAJ64rf8Yo+F6Nctq8uvreqcVdPFOiwugMZKWuCqgBlZhxte8PAFec1cs+I1YbaofboqHmPoFdq7Bi5P4No3fL70aGSgJUKdYW8XST7fshGDDZL8cxA9hmBlggmSjypFwXboYSLWzkqNoWo92Mq+W549aCz69LRMbyIOr8w+Q0luMqJB4UGxasYv6DG1m05djmx0aGGXzNYULhp1PQVHQvlSmYgKmdnwpRARJdy/Xucw==
+2018-08-23 14:31:54 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:38:23 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bank_id":"01050000","bg_ret_url":"http://192.168.0.74:8001/npayCallBack/asyncHandle.do","card_area":"1100","card_no":"6232510000001122","card_prov":"0011","cmd_id":"104","dc_flag":"0","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022028","user_cust_id":"6666000000046231","version":"10"}
+2018-08-23 14:38:41 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:38:41 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:38:42 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:38:42 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:38:42 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: K+LVzmOnxfbxb061lTwMWwfkIQg/ERWaxLDdifzOL6un3TQn1sTzNrZFXVsZVXWcovgf4KVZeKYTZTYci+Y9u8WFrUNFHH4XyPxOaQDFaCLYleiDqqMi5uoaeUJXq6VTMBlBqgjbSN6UV/LDHnTiWEtp/on6Z0RzO0INheZJGUYjnbrXMSx4oGsNmW35Z+aU8f4bFaelWx0pP7N+4MMJXdV9Rm0YkBO/anvCiS4I3sf2gT1GF6V98fnYcz3d2BJ4X9OkcF6zTRtdMYaBTDsy5qplPOo7w4aOLkANXKARx/VLXF1y5Tx7RKKQHtm5FVJsVJmN20trvnWjA3DdqtfpJg==
+2018-08-23 14:38:42 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:38:52 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bank_id":"01050000","bg_ret_url":"http://192.168.0.74:8001/npayCallBack/asyncHandle.do","card_area":"1100","card_no":"6232510000001129","card_prov":"0011","cmd_id":"104","dc_flag":"0","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022028","user_cust_id":"6666000000046231","version":"10"}
+2018-08-23 14:38:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:38:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:38:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:38:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:38:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: bcQGEQJdaFmf0txuETpwnEp9ezeFwky2e5FYMGI47gtcqMLKLdlBbkEcRnbISZGgvJtKOCvytHkSb+Al8UjXz9mRaYe7D8ROKmqzcqNJdeu7jTKTFQhiLjWpKoNMPu2kE75Zeaht4ASf5kxGj1CQ7Of6aVoy/i9UX5YL4KEodbJuPspfszlQWj/EEYrJbRnkAjEZT/GOOETuFlLKJIvoVFCPCw2rlaKrK4l+e0+mcdDuKRweKhIZk0TvqYBd3YnNzj010hl1gNbIixTJCU4NSvop/3jKobq8Y9vbAhg10iyg/3ylQtB2accWdMXL1nOHB3crUvLWNcDUKfbyo3kC+w==
+2018-08-23 14:38:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:39:58 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"cmd_id":"301","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022028","trans_type":"08","version":"10"}
+2018-08-23 14:39:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:39:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:39:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:39:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:39:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: lBt75wADS0MIIbRzQP8Cy0B6Hp22s+OLTDEMzoxz9Zq1yqD5Wh3ezV2lVoVHJx121w2owpCMTd2WweJveSWuZsyl0bWXEc+oGswlFmbXA8gMwYjPffegTtLkmyGS5lt5BylYIq5OZc9QobREAOla5AUVDBNJLRrd77E5X534z2N4V4+X1ja8StfVU6YlBObh69TvzKiqQ0GhIXbYy57Ho9vhBYR2zi09w2X4XVsxST0xsyvLMVAkL2n4RMZfxLW5f/yA7b0kVpB2OiWjE0f4lVmfcLsvpDV0PGZPxstoFXyhPfwcQs+KMlTD7D7+socYXYgdLENFoouLqobjIv0XMw==
+2018-08-23 14:39:59 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
+2018-08-23 14:43:20 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bank_id":"01050000","bg_ret_url":"http://192.168.0.74:8001/npayCallBack/asyncHandle.do","card_area":"1100","card_no":"6232510000001130","card_prov":"0011","cmd_id":"104","dc_flag":"0","mer_cust_id":"6666000000045782","order_date":"20180823","order_id":"20180823501004022029","user_cust_id":"6666000000046231","version":"10"}
+2018-08-23 14:43:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-08-23 14:43:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-08-23 14:43:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-08-23 14:43:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-08-23 14:43:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: aNuzKLgbsIm79CGE9iIWE50lYhU8jDDP25QqTEdWcxuCXtQ/oGzP3kgdv250yXxc1kZEZkteVIFu/5ecCUpLZ6NvFmphDTlvdJWhSPUDY6RsdlZOyWmuw9WEhgv6NkmCaCuGj5YOgSh9/27CrFH4JfRi+AvhpVvsh6KtJ7q4qYp9oePcoLh9Ll21hbcgF1le0118O20PpOxSlUgf0Nl8dOLOjFhQwqpkLNiXeqh4ycrhvXrzlR+g9Qc5Guq6wwPbvXJSFjyA1LTTN4QTw7BGuObNmTHtpUAuwdLoUWGvpJqN1BiBh75v40tC1lsj/dtJQd51qDmqi5OjIoy8FRtm8w==
+2018-08-23 14:43:25 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!

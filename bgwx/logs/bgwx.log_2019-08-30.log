@@ -1,0 +1,69 @@
+2019-08-30 16:32:54 [main] INFO  UMF                                      -[UMF SDK] 使用Log4j进行日志输出
+2019-08-30 16:32:54 [main] INFO  UMF                                      -[UMF SDK] 商户请求数据必填字段校验通过
+2019-08-30 16:32:54 [main] INFO  UMF                                      -[UMF SDK] 商户请求校验规则正确
+2019-08-30 16:32:54 [main] INFO  UMF                                      -[UMF SDK] 商户请求最终数据封装对象为：url=http://pay.soopay.net/spay/pay/payservice.do,field={sign=X/qemNBLZ7Cd4xX0zzuO9YVwFkdqN5IzLe8P9yOpZbZGEdE4pEXPP7AN1BsFTnVRUoIu7iyqwxxfXH7W6bRe5zjAQ0reezbrn7qgvtFaLjFmtRK2FyVQjoafyFXKQxXGfy78t01NrXEIl73bHTZnnfTBeQPWZ0tFyUFtbVijOA4=, bind_id=1908281552180243, mer_id=52510, sign_type=RSA, service=confirm_bind_shortcut, charset=UTF-8, res_format=HTML, verify_code=057267, version=4.0}plain=bind_id=1908281552180243&charset=UTF-8&mer_id=52510&res_format=HTML&service=confirm_bind_shortcut&sign_type=RSA&verify_code=057267&version=4.0sign=X/qemNBLZ7Cd4xX0zzuO9YVwFkdqN5IzLe8P9yOpZbZGEdE4pEXPP7AN1BsFTnVRUoIu7iyqwxxfXH7W6bRe5zjAQ0reezbrn7qgvtFaLjFmtRK2FyVQjoafyFXKQxXGfy78t01NrXEIl73bHTZnnfTBeQPWZ0tFyUFtbVijOA4=
+2019-08-30 16:32:54 [main] INFO  UMF                                      -连接超时时长为：60000
+2019-08-30 16:32:55 [main] INFO  UMF                                      -==============执行post方法结束==============
+2019-08-30 16:32:55 [main] INFO  UMF                                      -==============获得HttpEntity结束==============
+2019-08-30 16:32:55 [main] INFO  UMF                                      -==============获得输入流结束==============
+2019-08-30 16:32:55 [main] INFO  UMF                                      -[UMF SDK] 通讯成功，请求地址返回状态码为：【200】
+2019-08-30 16:32:55 [main] INFO  UMF                                      -[UMF SDK] content=mer_id=52510&ret_code=00200101&ret_msg=【快捷2.3 签约订单】查询签约订单信息失败,签约订单不存在或已过期，请重新申请签约。,PSP1632573dc82c6&sign_type=RSA&version=4.0&sign=q+f+nGWtq9MWp3Hm5keq++LzcwjU9GpBjwvEmhvTCCcrBqIfIkoGUxLKDhD6o09u63smpjB0yI+43R2pKT2lHR5m+Sq4eXsK/b8nDUT26QuTRm4fxrmtr3un69Yfx99183CO8gshltD4/o9/UohmBBqAHuqh+fDTfgTty71B5YQ=
+2019-08-30 16:32:55 [main] INFO  UMF                                      -[UMF SDK] 获取联动公钥证书成功!
+2019-08-30 16:32:55 [main] INFO  UMF                                      -[UMF SDK] 验证平台签名是否成功------>true
+2019-08-30 16:32:55 [main] INFO  UMF                                      -[UMF SDK] 商户请求联动平台返回最终数据为:{ret_code=00200101, mer_id=52510, ret_msg=【快捷2.3 签约订单】查询签约订单信息失败,签约订单不存在或已过期，请重新申请签约。,PSP1632573dc82c6}
+2019-08-30 16:32:56 [main] INFO  UMF                                      -[UMF SDK] 商户请求数据必填字段校验通过
+2019-08-30 16:32:56 [main] INFO  UMF                                      -[UMF SDK] 商户请求校验规则正确
+2019-08-30 16:32:56 [main] INFO  UMF                                      -[UMF SDK] 商户请求最终数据封装对象为：url=http://pay.soopay.net/spay/pay/payservice.do,field={sign=kD9ipYC1F4yMl+itOhWNw5hnqlusvNfpYC/e5wDQaRTvrjsRM2D+5D5W+wcB04KD/5qe02AkccNmgc4se1/wNkwouPV+2sJEjsEUp54ZuSzRGR/sJp35rITGyWpYD0h68BGnqsM0TCsKGm71V28Y5FtbgrlMdBd9c5BryU9DzsU=, usr_pay_agreement_id=P2019083012584400000000044387341, mer_id=52510, sign_type=RSA, service=unbind_mercust_protocol_shortcut, charset=UTF-8, mer_cust_id=420984199211025618, res_format=HTML, version=4.0}plain=charset=UTF-8&mer_cust_id=420984199211025618&mer_id=52510&res_format=HTML&service=unbind_mercust_protocol_shortcut&sign_type=RSA&usr_pay_agreement_id=P2019083012584400000000044387341&version=4.0sign=kD9ipYC1F4yMl+itOhWNw5hnqlusvNfpYC/e5wDQaRTvrjsRM2D+5D5W+wcB04KD/5qe02AkccNmgc4se1/wNkwouPV+2sJEjsEUp54ZuSzRGR/sJp35rITGyWpYD0h68BGnqsM0TCsKGm71V28Y5FtbgrlMdBd9c5BryU9DzsU=
+2019-08-30 16:32:56 [main] INFO  UMF                                      -连接超时时长为：60000
+2019-08-30 16:33:08 [main] INFO  UMF                                      -[UMF SDK] 使用Log4j进行日志输出
+2019-08-30 16:33:08 [main] INFO  UMF                                      -[UMF SDK] 商户请求数据必填字段校验通过
+2019-08-30 16:33:08 [main] INFO  UMF                                      -[UMF SDK] 商户请求校验规则正确
+2019-08-30 16:33:08 [main] INFO  UMF                                      -[UMF SDK] 商户请求最终数据封装对象为：url=http://pay.soopay.net/spay/pay/payservice.do,field={sign=kD9ipYC1F4yMl+itOhWNw5hnqlusvNfpYC/e5wDQaRTvrjsRM2D+5D5W+wcB04KD/5qe02AkccNmgc4se1/wNkwouPV+2sJEjsEUp54ZuSzRGR/sJp35rITGyWpYD0h68BGnqsM0TCsKGm71V28Y5FtbgrlMdBd9c5BryU9DzsU=, usr_pay_agreement_id=P2019083012584400000000044387341, mer_id=52510, sign_type=RSA, service=unbind_mercust_protocol_shortcut, charset=UTF-8, mer_cust_id=420984199211025618, res_format=HTML, version=4.0}plain=charset=UTF-8&mer_cust_id=420984199211025618&mer_id=52510&res_format=HTML&service=unbind_mercust_protocol_shortcut&sign_type=RSA&usr_pay_agreement_id=P2019083012584400000000044387341&version=4.0sign=kD9ipYC1F4yMl+itOhWNw5hnqlusvNfpYC/e5wDQaRTvrjsRM2D+5D5W+wcB04KD/5qe02AkccNmgc4se1/wNkwouPV+2sJEjsEUp54ZuSzRGR/sJp35rITGyWpYD0h68BGnqsM0TCsKGm71V28Y5FtbgrlMdBd9c5BryU9DzsU=
+2019-08-30 16:33:08 [main] INFO  UMF                                      -连接超时时长为：60000
+2019-08-30 16:33:09 [main] INFO  UMF                                      -==============执行post方法结束==============
+2019-08-30 16:33:09 [main] INFO  UMF                                      -==============获得HttpEntity结束==============
+2019-08-30 16:33:09 [main] INFO  UMF                                      -==============获得输入流结束==============
+2019-08-30 16:33:09 [main] INFO  UMF                                      -[UMF SDK] 通讯成功，请求地址返回状态码为：【200】
+2019-08-30 16:33:09 [main] INFO  UMF                                      -[UMF SDK] content=mer_id=52510&ret_code=00060124&ret_msg=业务协议依赖的支付协议关系不存在,PSP163311804bcc9&sign_type=RSA&version=4.0&sign=iM6mXqcUbIksDLIqvJZr6kEhwEt5evqx/Mp7OW2OzFox5JAJurAg3CGiGuJkRJa778qZQixasLw6pv6cb8SlZkdo56I6TsxcTQr3ttfH8/xX7TJ+2fV3xdvfvDzsdkZJAfh9SOyWRYwVz20m5Znb9WKwQ0YBwovGtQ5bjgN7vnE=
+2019-08-30 16:33:09 [main] INFO  UMF                                      -[UMF SDK] 获取联动公钥证书成功!
+2019-08-30 16:33:09 [main] INFO  UMF                                      -[UMF SDK] 验证平台签名是否成功------>true
+2019-08-30 16:33:09 [main] INFO  UMF                                      -[UMF SDK] 商户请求联动平台返回最终数据为:{ret_code=00060124, mer_id=52510, ret_msg=业务协议依赖的支付协议关系不存在,PSP163311804bcc9}
+2019-08-30 16:33:41 [main] INFO  UMF                                      -[UMF SDK] 使用Log4j进行日志输出
+2019-08-30 16:33:41 [main] INFO  UMF                                      -[UMF SDK] 商户请求数据必填字段校验通过
+2019-08-30 16:33:41 [main] INFO  UMF                                      -[UMF SDK] 商户请求校验规则正确
+2019-08-30 16:33:41 [main] INFO  UMF                                      -[UMF SDK] 商户请求最终数据封装对象为：url=http://pay.soopay.net/spay/pay/payservice.do,field={sign=kD9ipYC1F4yMl+itOhWNw5hnqlusvNfpYC/e5wDQaRTvrjsRM2D+5D5W+wcB04KD/5qe02AkccNmgc4se1/wNkwouPV+2sJEjsEUp54ZuSzRGR/sJp35rITGyWpYD0h68BGnqsM0TCsKGm71V28Y5FtbgrlMdBd9c5BryU9DzsU=, usr_pay_agreement_id=P2019083012584400000000044387341, mer_id=52510, sign_type=RSA, service=unbind_mercust_protocol_shortcut, charset=UTF-8, mer_cust_id=420984199211025618, res_format=HTML, version=4.0}plain=charset=UTF-8&mer_cust_id=420984199211025618&mer_id=52510&res_format=HTML&service=unbind_mercust_protocol_shortcut&sign_type=RSA&usr_pay_agreement_id=P2019083012584400000000044387341&version=4.0sign=kD9ipYC1F4yMl+itOhWNw5hnqlusvNfpYC/e5wDQaRTvrjsRM2D+5D5W+wcB04KD/5qe02AkccNmgc4se1/wNkwouPV+2sJEjsEUp54ZuSzRGR/sJp35rITGyWpYD0h68BGnqsM0TCsKGm71V28Y5FtbgrlMdBd9c5BryU9DzsU=
+2019-08-30 16:33:41 [main] INFO  UMF                                      -连接超时时长为：60000
+2019-08-30 16:33:42 [main] INFO  UMF                                      -==============执行post方法结束==============
+2019-08-30 16:33:42 [main] INFO  UMF                                      -==============获得HttpEntity结束==============
+2019-08-30 16:33:42 [main] INFO  UMF                                      -==============获得输入流结束==============
+2019-08-30 16:33:42 [main] INFO  UMF                                      -[UMF SDK] 通讯成功，请求地址返回状态码为：【200】
+2019-08-30 16:33:42 [main] INFO  UMF                                      -[UMF SDK] content=mer_id=52510&ret_code=00060124&ret_msg=业务协议依赖的支付协议关系不存在,PSP1633442d411c5&sign_type=RSA&version=4.0&sign=gEOMm5U6DYhJC6wpjak3/STzI2GAi+fYONsrQB+10KePFYFIxvLU+aoWeWAW7weDHdJ0WB/dbbZarzKH/4H2nGULgrEElv6ed7dXayTtKgWUXZ/ZXrTotouHpA02AMzqH8q/KwgvymOK7iPygDxHV0WyTQ/YSTdXIK7zjCBIYfY=
+2019-08-30 16:33:42 [main] INFO  UMF                                      -[UMF SDK] 获取联动公钥证书成功!
+2019-08-30 16:33:42 [main] INFO  UMF                                      -[UMF SDK] 验证平台签名是否成功------>true
+2019-08-30 16:33:42 [main] INFO  UMF                                      -[UMF SDK] 商户请求联动平台返回最终数据为:{ret_code=00060124, mer_id=52510, ret_msg=业务协议依赖的支付协议关系不存在,PSP1633442d411c5}
+2019-08-30 16:37:03 [main] INFO  UMF                                      -[UMF SDK] 使用Log4j进行日志输出
+2019-08-30 16:37:03 [main] INFO  UMF                                      -[UMF SDK] 商户请求数据必填字段校验通过
+2019-08-30 16:37:04 [main] INFO  UMF                                      -[UMF SDK] 商户请求校验规则正确
+2019-08-30 16:37:04 [main] INFO  UMF                                      -[UMF SDK] 商户请求最终数据封装对象为：url=http://pay.soopay.net/spay/pay/payservice.do,field={sign=kD9ipYC1F4yMl+itOhWNw5hnqlusvNfpYC/e5wDQaRTvrjsRM2D+5D5W+wcB04KD/5qe02AkccNmgc4se1/wNkwouPV+2sJEjsEUp54ZuSzRGR/sJp35rITGyWpYD0h68BGnqsM0TCsKGm71V28Y5FtbgrlMdBd9c5BryU9DzsU=, usr_pay_agreement_id=P2019083012584400000000044387341, mer_id=52510, sign_type=RSA, service=unbind_mercust_protocol_shortcut, charset=UTF-8, mer_cust_id=420984199211025618, res_format=HTML, version=4.0}plain=charset=UTF-8&mer_cust_id=420984199211025618&mer_id=52510&res_format=HTML&service=unbind_mercust_protocol_shortcut&sign_type=RSA&usr_pay_agreement_id=P2019083012584400000000044387341&version=4.0sign=kD9ipYC1F4yMl+itOhWNw5hnqlusvNfpYC/e5wDQaRTvrjsRM2D+5D5W+wcB04KD/5qe02AkccNmgc4se1/wNkwouPV+2sJEjsEUp54ZuSzRGR/sJp35rITGyWpYD0h68BGnqsM0TCsKGm71V28Y5FtbgrlMdBd9c5BryU9DzsU=
+2019-08-30 16:37:04 [main] INFO  UMF                                      -连接超时时长为：60000
+2019-08-30 16:37:05 [main] INFO  UMF                                      -==============执行post方法结束==============
+2019-08-30 16:37:05 [main] INFO  UMF                                      -==============获得HttpEntity结束==============
+2019-08-30 16:37:05 [main] INFO  UMF                                      -==============获得输入流结束==============
+2019-08-30 16:37:05 [main] INFO  UMF                                      -[UMF SDK] 通讯成功，请求地址返回状态码为：【200】
+2019-08-30 16:37:05 [main] INFO  UMF                                      -[UMF SDK] content=mer_id=52510&ret_code=00060124&ret_msg=业务协议依赖的支付协议关系不存在,PSP16370607099c0&sign_type=RSA&version=4.0&sign=ggtNRWoVvfTjPA67zqkheGjrAQk+xxsHEEzLtETqAC+uYUZWs5sm1FiUMWIy+c5AvKzWu8L9OKWa8LiHnBsh18MHtFHWZkz5/hnCAwDkYu5hIWY7lDC8DxNMXBxrfAgXu6jh/xU4E6Gt+aAWCw+vFuB0sv8ISXiMdRnKWkXdpaw=
+2019-08-30 16:37:05 [main] INFO  UMF                                      -[UMF SDK] 获取联动公钥证书成功!
+2019-08-30 16:37:05 [main] INFO  UMF                                      -[UMF SDK] 验证平台签名是否成功------>true
+2019-08-30 16:37:05 [main] INFO  UMF                                      -[UMF SDK] 商户请求联动平台返回最终数据为:{ret_code=00060124, mer_id=52510, ret_msg=业务协议依赖的支付协议关系不存在,PSP16370607099c0}
+2019-08-30 16:39:27 [main] INFO  UMF                                      -[UMF SDK] 使用Log4j进行日志输出
+2019-08-30 16:39:27 [main] INFO  UMF                                      -[UMF SDK] 商户请求数据必填字段校验通过
+2019-08-30 16:39:28 [main] INFO  UMF                                      -[UMF SDK] 商户请求校验规则正确
+2019-08-30 16:39:28 [main] INFO  UMF                                      -[UMF SDK] 商户请求最终数据封装对象为：url=http://pay.soopay.net/spay/pay/payservice.do,field={sign=autzs9VqLEqiCE6j1a/3/jDDjxhLtk+pO9IX5bMFirr9b3YJBD3A87TK1R/y2NjEmuCogTU5G9RWF8nCrhY1lxekl9tmFc561TnDmeNR1YVmCxbpw3IndI1RA+YoyAdRhScFdsw7x4OI78v4O1ggAZyLxoHvFhSzb4b3vW36egQ=, mer_id=52510, sign_type=RSA, service=unbind_mercust_protocol_shortcut, charset=UTF-8, mer_cust_id=420984199211025618, res_format=HTML, version=4.0}plain=charset=UTF-8&mer_cust_id=420984199211025618&mer_id=52510&res_format=HTML&service=unbind_mercust_protocol_shortcut&sign_type=RSA&version=4.0sign=autzs9VqLEqiCE6j1a/3/jDDjxhLtk+pO9IX5bMFirr9b3YJBD3A87TK1R/y2NjEmuCogTU5G9RWF8nCrhY1lxekl9tmFc561TnDmeNR1YVmCxbpw3IndI1RA+YoyAdRhScFdsw7x4OI78v4O1ggAZyLxoHvFhSzb4b3vW36egQ=
+2019-08-30 16:39:28 [main] INFO  UMF                                      -连接超时时长为：60000
+2019-08-30 16:39:29 [main] INFO  UMF                                      -==============执行post方法结束==============
+2019-08-30 16:39:29 [main] INFO  UMF                                      -==============获得HttpEntity结束==============
+2019-08-30 16:39:29 [main] INFO  UMF                                      -==============获得输入流结束==============
+2019-08-30 16:39:29 [main] INFO  UMF                                      -[UMF SDK] 通讯成功，请求地址返回状态码为：【200】
+2019-08-30 16:39:29 [main] INFO  UMF                                      -[UMF SDK] content=mer_id=52510&ret_code=0000&ret_msg=成功&sign_type=RSA&version=4.0&sign=vI+DzmbhxiHUhYoAAmOBcs0YmW1JXuiprp1cFOLATeGeKZfAx7CnVSicXoLkRNagPW6bM+LxbYAW0QVgfflTXsMZI2wsnWhcmvWTWjDbbaLXl9r0k2Bl9vz2DWia5ce3f0chTSOA8mJgautU5fnokiVjsA9jjhPPAK8VbE9CAek=
+2019-08-30 16:39:29 [main] INFO  UMF                                      -[UMF SDK] 获取联动公钥证书成功!
+2019-08-30 16:39:29 [main] INFO  UMF                                      -[UMF SDK] 验证平台签名是否成功------>true
+2019-08-30 16:39:29 [main] INFO  UMF                                      -[UMF SDK] 商户请求联动平台返回最终数据为:{ret_code=0000, mer_id=52510, ret_msg=成功}

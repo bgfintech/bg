@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task>
+	<routeTable>
+		<!-- <route unit="StartCABP" executeStatus="unexecute" nextUnit="StartCABP"/> --> 
+		<!-- 
+			开始批量
+			提前还款
+			一般还款	
+			借据历史表更新		
+			日终处理 计算逾期天数，滞纳金，
+			代扣清单
+			日切
+			结量批量
+		 -->
+		<!-- 日终交易 -->
+		<route unit="StartBatch" executeStatus="success" nextUnit="ChangeBusinessDate"/>
+		<!--<route unit="ShareGBPRateProcess" executeStatus="success" nextUnit="ChangeBusinessDate"/>
+		<route unit="NormalRepayment" executeStatus="success" nextUnit="BusinessLoanHis"/>
+		<route unit="BusinessLoanHis" executeStatus="success" nextUnit="DayEndProcess"/>
+		<route unit="DayEndProcess" executeStatus="success" nextUnit="ChangeBusinessDate"/>	-->	
+		<route unit="ChangeBusinessDate" executeStatus="success" nextUnit="EndBatch"/> 
+		<!-- 日初交易
+		<route unit="CreateAutoRepayOrder" executeStatus="success" nextUnit="SendAutoPayOrder"/>
+		<route unit="SendAutoPayOrder" executeStatus="success" nextUnit="RCNormalRepayment"/>
+		<route unit="RCNormalRepayment" executeStatus="success" nextUnit="JNDataSubmit"/>
+		<route unit="JNDataSubmit" executeStatus="success" nextUnit="EndBatch"/>-->
+		<!-- <route unit="SendCollectionData" executeStatus="success" nextUnit="EndBatch"/>-->
+		<route unit="EndBatch" executeStatus="success" nextUnit=""/>
+		
+	</routeTable>
+</task>

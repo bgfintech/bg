@@ -1,0 +1,73 @@
+package com.yeepay.payment;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class DownloadFileServle
+ */
+public class DownloadFileServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public DownloadFileServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doPost(request, response);
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		request.setCharacterEncoding("UTF-8");
+		response.setCharacterEncoding("UTF-8");
+		
+		String method = request.getParameter("method");
+		String date = request.getParameter("date");
+		String dataType = request.getParameter("dataType");
+		
+		System.out.println(method);
+		System.out.println(date);
+		System.out.println(dataType);
+		
+		Map<String, String> params = new HashMap<>();
+		params.put("method", method);
+		params.put("date", date);
+		params.put("dataType", dataType);
+		
+		//获得项目绝对路径	
+		String realPath 	= this.getServletConfig().getServletContext().getRealPath("/"); 
+				
+		//对账文件的存储路径
+		String path			= realPath + "File";
+		
+		System.out.println("path===="+path);
+		//获取对账文件
+		String filePath		= YeepayService.yosFile(params, path);
+
+		System.out.println(filePath);
+		
+		request.setAttribute("filePath", filePath);
+		RequestDispatcher view	= request.getRequestDispatcher("jsp/14remitfileResponse.jsp");
+		view.forward(request, response);
+	}
+
+}

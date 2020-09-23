@@ -1,0 +1,54 @@
+package com.bg.interfaces.entity;
+
+public class Trans1001Rsp {
+	private String resp_code;
+	private String resp_desc;
+	private String mer_id;
+	private String order_id;
+	private String trans_amt;
+	private String code_url;
+	private String out_trans_id;
+	public String getResp_code() {
+		return resp_code;
+	}
+	public void setResp_code(String resp_code) {
+		this.resp_code = resp_code;
+	}
+	public String getResp_desc() {
+		return resp_desc;
+	}
+	public void setResp_desc(String resp_desc) {
+		this.resp_desc = resp_desc;
+	}
+	public String getMer_id() {
+		return mer_id;
+	}
+	public void setMer_id(String mer_id) {
+		this.mer_id = mer_id;
+	}
+	public String getOrder_id() {
+		return order_id;
+	}
+	public void setOrder_id(String order_id) {
+		this.order_id = order_id;
+	}
+	public String getTrans_amt() {
+		return trans_amt;
+	}
+	public void setTrans_amt(String trans_amt) {
+		this.trans_amt = trans_amt;
+	}
+	public String getCode_url() {
+		return code_url;
+	}
+	public void setCode_url(String code_url) {
+		this.code_url = code_url;
+	}
+	public String getOut_trans_id() {
+		return out_trans_id;
+	}
+	public void setOut_trans_id(String out_trans_id) {
+		this.out_trans_id = out_trans_id;
+	}
+	
+}

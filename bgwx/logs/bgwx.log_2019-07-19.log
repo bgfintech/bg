@@ -1,0 +1,37 @@
+2019-07-19 12:27:10 [main] ERROR com.huifu.saturn.cfca.CFCASignature      -verifyCer error:
+850411: 解析证书时初始化证书失败
+java.lang.IllegalArgumentException: unknown object in getInstance: cfca.sadk.org.bouncycastle.asn1.ASN1Integer
+	at cfca.sadk.x509.certificate.X509Cert.initCert(X509Cert.java:254)
+	at cfca.sadk.x509.certificate.X509Cert.<init>(X509Cert.java:120)
+	at com.huifu.saturn.cfca.CFCAVerify.verifyCer(CFCAVerify.java:41)
+	at com.huifu.saturn.cfca.CFCASignature.verifyChinaPnRSign(CFCASignature.java:134)
+	at com.bg.trans.service.impl.NsposServiceImpl.verify(NsposServiceImpl.java:142)
+	at com.bg.trans.service.impl.NsposServiceImpl.transE1103(NsposServiceImpl.java:77)
+	at com.bg.trans.service.impl.NsposServiceImpl.main(NsposServiceImpl.java:148)
+2019-07-19 12:27:10 [main] ERROR com.huifu.saturn.cfca.CFCASignature      -verifyCer error:
+850411: 解析证书时初始化证书失败
+java.lang.IllegalArgumentException: unknown object in getInstance: cfca.sadk.org.bouncycastle.asn1.ASN1Integer
+	at cfca.sadk.x509.certificate.X509Cert.initCert(X509Cert.java:254)
+	at cfca.sadk.x509.certificate.X509Cert.<init>(X509Cert.java:120)
+	at com.huifu.saturn.cfca.CFCAVerify.verifyCer(CFCAVerify.java:41)
+	at com.huifu.saturn.cfca.CFCASignature.verifyChinaPnRSign(CFCASignature.java:134)
+	at com.bg.trans.service.impl.NsposServiceImpl.verify(NsposServiceImpl.java:142)
+	at com.bg.trans.service.impl.NsposServiceImpl.transE1103(NsposServiceImpl.java:79)
+	at com.bg.trans.service.impl.NsposServiceImpl.main(NsposServiceImpl.java:148)
+2019-07-19 12:29:25 [main] ERROR com.huifu.saturn.cfca.CFCASignature      -signature error:
+java.lang.NullPointerException
+	at cfca.sadk.asn1.pkcs.PKCS12.load(PKCS12.java:149)
+	at cfca.sadk.util.KeyUtil.getPrivateKeyFromPFX(KeyUtil.java:66)
+	at com.huifu.saturn.cfca.CFCASignature.signature(CFCASignature.java:80)
+	at com.huifu.saturn.cfca.CFCASignature.signature(CFCASignature.java:50)
+	at com.bg.trans.service.impl.NsposServiceImpl.sign(NsposServiceImpl.java:137)
+	at com.bg.trans.service.impl.NsposServiceImpl.transE1103(NsposServiceImpl.java:62)
+	at com.bg.trans.service.impl.NsposServiceImpl.main(NsposServiceImpl.java:148)
+2019-07-19 12:30:56 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2019-07-19 12:30:56 [main] WARN  com.huifu.saturn.cfca.CFCASignature      -subject not contains merId. subject=CN=051@NSPOS000001@N91440116MA59AJWUXP@1, OU=Organizational-1, OU=Local RA, O=CFCA ACS OCA31, C=CN,merId=3100000150007076
+2019-07-19 12:30:56 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2019-07-19 12:30:56 [main] WARN  com.huifu.saturn.cfca.CFCASignature      -subject not contains merId. subject=CN=051@NSPOS000001@N91440116MA59AJWUXP@1, OU=Organizational-1, OU=Local RA, O=CFCA ACS OCA31, C=CN,merId=3100000160007621
+2019-07-19 12:36:02 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2019-07-19 12:36:02 [main] WARN  com.huifu.saturn.cfca.CFCASignature      -subject not contains merId. subject=CN=051@NSPOS000001@N91440116MA59AJWUXP@1, OU=Organizational-1, OU=Local RA, O=CFCA ACS OCA31, C=CN,merId=310000015000707678
+2019-07-19 12:36:02 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2019-07-19 12:36:02 [main] WARN  com.huifu.saturn.cfca.CFCASignature      -subject not contains merId. subject=CN=051@NSPOS000001@N91440116MA59AJWUXP@1, OU=Organizational-1, OU=Local RA, O=CFCA ACS OCA31, C=CN,merId=310000016000762177

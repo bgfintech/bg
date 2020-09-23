@@ -1,0 +1,75 @@
+2019-02-25 22:03:25 [main] INFO  .interfaces.controller.GateWayController -post body:"商户号有误"
+2019-02-25 22:03:25 [main] ERROR .interfaces.controller.GateWayController -java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:169)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:367)
+2019-02-25 22:15:03 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"hfN5GGlkfeFzuBZXyRa/ORsLmYwsl4a2LXCT1l5NQiUVSIldvjC9Cm83mfBT5y9DOdIY7iLqzd2P4FydgXqKLC6xhlwlbC1ZQj+GnF/IRDe/2KKII97ZGvNycZ+WbXiXL0HcFfP8D/+8bU1PsGsSJsgklDYua3kRM3fP8M9tsn8=","data":"N7A7oQwJywkjqBoj4cOEdTHDi895he3R2OFl4Dz+Pnn4dBnC/VRpJKtZpfsuqyqkfP333zxxeK2UJu0zi3AtyiyLe8KurW6GqoI23wlDgD/dVXax5WdxcDau6EPvMywqTBAsLA31CmE96fpoBHfCbnHNwysS+MnXAgHwh7psWYs="}
+2019-02-25 22:16:42 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"hfN5GGlkfeFzuBZXyRa/ORsLmYwsl4a2LXCT1l5NQiUVSIldvjC9Cm83mfBT5y9DOdIY7iLqzd2P4FydgXqKLC6xhlwlbC1ZQj+GnF/IRDe/2KKII97ZGvNycZ+WbXiXL0HcFfP8D/+8bU1PsGsSJsgklDYua3kRM3fP8M9tsn8=","data":"dnEYr7ynFKo5gpiUpfPYJpMgfvWrQDk0kid7MNskUQWpBrxYVeY1tFipvc5mHVAAiM1GN3Vvb7n60Hbx8cY+T3eWzJxByqBhODM3+896bfpJjlvZefJ2iVcI053JsQtviMAgpfQYBrjjkKArC4KyBjtEYHnz6XKSq6UqjftbRqc="}
+2019-02-25 22:16:54 [main] INFO  .interfaces.controller.GateWayController -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: NullPointerException</H2>
+<hr />
+<P>错误描述：</P>
+null
+<P>错误信息：</P>
+java.lang.NullPointerException
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1017)
+	at java.lang.Double.parseDouble(Double.java:540)
+	at com.bg.interfaces.service.impl.GateWayServiceByYBZFImpl.process1017(GateWayServiceByYBZFImpl.java:584)
+	at com.bg.interfaces.controller.GateWayController.gateway(GateWayController.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+</body>
+</html>
+2019-02-25 22:16:54 [main] ERROR .interfaces.controller.GateWayController -syntax error, pos 2
+com.alibaba.fastjson.JSONException: syntax error, pos 2
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.bg.interfaces.controller.GateWayController.main(GateWayController.java:367)
+2019-02-25 22:17:29 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"ch1WunGkfFclGvlCnZMr5OVrlB69B6PJAo7IugSq5VAgv65og7Uzb+KojNViEhCOOCHZ6ruG4wCMXsV/+6mKogicv6jPXo9rBYcf5GbsVd39oDsGYNSn3w3gx+RFZF+B26qOaw/p82DTkfh39TcKIYNKq/vUHj8E20lO7NYXGmY=","data":"EODEZbWQp66lFERctFogbEqWVIHfMbPIZwiED5uxD57SfGhaAFQHo18kTWHpO/sl5YNYFSf+nHCPYr1dYE3YCCOC/imA1eoDgJZkqU+MztoWHhChVUvktgF4LGmzLKv3V/yr+SezpFsf/QJSyX3MeOCXVc0ysEcH68gHnVkIQTg="}
+2019-02-25 22:18:14 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"dz5Rds/MTel3v6LZYitexcVYVw0IZAsmoMDzhydmFhUeoRr6mYMbR0rUFhy7WzYTs3O12/QoGkBVe3xkomJWJactoCfIyZTGCUFEng/1VrCJI/Wa/545wpy5OB1S29CGNw1eG3G3STp5Lh7JU/+xKa8p0z1D4d10WfYBzlC1nSY=","data":"FaGW+wlFSjfwov4eKqhVj9ze2MS5AN+Eej3hfKcXOpJAASmbdDrS/jFTNV1iBOL7yAu7QtaPjVRJGaK310waoEaBAhYakzNF7R2jH30OYDSQeXHVpHTvvabzxkbrqunMLthkZWUtCh/NuhFYwM6fn1uIc9rc5Ewh+7B9QsKhf3Vo8KsCWNX7dbXBGXpcAp12TS/dfDKwStgLIgVkz9SlJSiyHEiX4XDQSeU8VmlCsCMDnjb/SZtkFXSwE7ILWFqYRkjs9I0Nl+lenNTrbwnhYOkKdG52VXm4hXABDMcYs/Oug4BxJpVs9rVRRgZqYq4Ucbroz8Re0Ew3TfYAEm06qQ=="}
+2019-02-25 22:29:23 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"yjkbEMdjjF2mpn3TVx2woUVtJzuswVmtdth0vTMwyffTmE+pPvvTF5UVsbyDKjO38p88VXZkJerlwTHgnma8AeflcMKAFBJl9IVWYOTyWMFwmij0syValln/OL8GfgcAl4V8couOSDH6PnXuAoObmKNky7IwghkkhQY1esPrnyY=","data":"BOFmHwZGq4HmP2+UqpmpWl2y+o/9UO6Mi9pUHjMskSpr9zIAOvSIW9BZ8XCH6NpK64hT5k3Hhzd+YHRx+6aYAMlMiIun+rhBEDptmApynNcr1WI4MWyoPpRfLgCxyEmqSadLNLhxP5OqKvxLHvetc4mZO1yXgl/oy7knZ+ouuWI="}
+2019-02-25 22:38:37 [main] INFO  .interfaces.controller.GateWayController -post body:{"sign":"QFws8n6l+xeDGr8s52M8cNSS2ZnbvWaxKEm++CZ21x0tw4nvYst6znAy7/MzGFEzZK+BOl0qLV7rElG8JgG7AtmWeokN5CosVur9dHmeoG/GBKOmzxZYH894jlx8bcBQovVdDCFiINUxP+k+xl48LQcqP1rqUwyupANJWMYRnaM=","data":"JZtfLO94sdJeDEYDZCUgk3fZzHZxOPCGPJD3L9QBkSAm/ZiyISxsRFYTE/mTnh4BHDDQi/3kdxlFo0GwmlZLktPtEIZ5y2c9CQi5FAOdZb+cIvBPvgTTgO+PH/QTP1tg1FagqcifgrJt4bEK9mVz5W0MfmpxSjUCM1qHUiaWRYYqGiayoqA05hn7Fj4Ww75q6iHoOurqihs5AaRJ/S98kwr58EmKJv6OojMb4nqO1bzgrAszhwAKCOg1lkM5gFfz+ikx78v0709DIWDKlbO7Uhq+EAmyEmIe47k2gCSxPnAZFVmuEEF0pXboSnvjs5zkhTuFyIzpObFa9RvTzdBLSQ=="}

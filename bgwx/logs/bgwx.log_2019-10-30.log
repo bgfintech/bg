@@ -1,0 +1,348 @@
+2019-10-30 10:42:46 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"criminal\":{\"area_stat\":\"新疆维吾尔自治区(1)\",\"ay_stat\":\"危害公共安全罪(1)\",\"count_beigao\":\"0\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"1\",\"jafs_stat\":\"判决(1)\",\"larq_stat\":\"其他(1)\",\"money_beigao\":\"0\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"1\"}}"
+2019-10-30 11:16:01 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"civil\":{\"area_stat\":\"山东省(2),北京市(1)\",\"ay_stat\":\"合同、无因管理、不当得利纠纷(3)\",\"count_beigao\":\"1\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"2\",\"jafs_stat\":\"调解(1),准予撤诉(1),按撤诉处理(1)\",\"larq_stat\":\"2017(2),2018(1)\",\"money_beigao\":\"0\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"2\"},\"implement\":{\"area_stat\":\"山东省(1)\",\"ay_stat\":\"其他(1)\",\"count_beigao\":\"1\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"0\",\"jafs_stat\":\"保全完毕(1)\",\"larq_stat\":\"2018(1)\",\"money_beigao\":\"0\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"0\"}}"
+2019-10-30 11:19:03 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"resp_desc\":\"无效参数\"}"
+2019-10-30 11:28:02 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"resp_desc\":\"无效参数\"}"
+2019-10-30 11:34:38 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: NullPointerException</H2>
+<hr />
+<P>错误描述：</P>
+null
+<P>错误信息：</P>
+java.lang.NullPointerException
+	at com.bg.interfaces.service.impl.BPEntServiceImpl.transformCount(BPEntServiceImpl.java:291)
+	at com.bg.interfaces.service.impl.BPEntServiceImpl.entoutService(BPEntServiceImpl.java:224)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:318)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.cache.interceptor.CacheInterceptor$1.invoke(CacheInterceptor.java:58)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:213)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:66)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)
+	at com.sun.proxy.$Proxy88.entoutService(Unknown Source)
+	at com.bg.interfaces.controller.BPController.entout(BPController.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+</body>
+</html>
+2019-10-30 11:59:57 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: DataIntegrityViolationException</H2>
+<hr />
+<P>错误描述：</P>
+PreparedStatementCallback; SQL []; Data truncation: Data too long for column 'respcontent' at row 1; nested exception is com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'respcontent' at row 1
+<P>错误信息：</P>
+org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL []; Data truncation: Data too long for column 'respcontent' at row 1; nested exception is com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'respcontent' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:101)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:80)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:603)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:843)
+	at com.bg.trans.dao.impl.TransDaoImpl.insertTransaction(TransDaoImpl.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:318)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:196)
+	at com.sun.proxy.$Proxy259.insertTransaction(Unknown Source)
+	at com.bg.trans.service.impl.TransBaseServiceImpl.insertTransaction(TransBaseServiceImpl.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:318)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:196)
+	at com.sun.proxy.$Proxy260.insertTransaction(Unknown Source)
+	at com.bg.interfaces.service.impl.BPEntServiceImpl.entoutService(BPEntServiceImpl.java:284)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:318)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.cache.interceptor.CacheInterceptor$1.invoke(CacheInterceptor.java:58)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:213)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:66)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)
+	at com.sun.proxy.$Proxy264.entoutService(Unknown Source)
+	at com.bg.interfaces.controller.BPController.entout(BPController.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'respcontent' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4235)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2617)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2778)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2825)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2156)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2459)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2376)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2360)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:2717)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_executeUpdate(FilterAdapter.java:1052)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeUpdate(FilterEventAdapter.java:491)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:2715)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeUpdate(PreparedStatementProxyImpl.java:106)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeUpdate(DruidPooledPreparedStatement.java:237)
+	at org.springframework.jdbc.core.JdbcTemplate$3.doInPreparedStatement(JdbcTemplate.java:845)
+	at org.springframework.jdbc.core.JdbcTemplate$3.doInPreparedStatement(JdbcTemplate.java:1)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:587)
+	... 70 more
+
+</body>
+</html>
+2019-10-30 12:01:37 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:""
+2019-10-30 12:02:16 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:""
+2019-10-30 12:04:29 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"criminal\":{\"cases\":[{\"c_ah\":\"（2015）湛麻法刑初字第202号\",\"c_gkws_dsr\":\"公诉机关广东省湛江市麻章区人民检察院。被告人万胜,男,公民身份号码×××3110,汉族,初中文化,住广西壮族自治区陆川县。因犯有诈骗罪,于2004年11月25日被广东省湛江市霞山区人民法院判处有期徒刑10年,2011年4月27日刑满释放;因本案,于2014年12月20日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区检察院批准,同年12月25日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。辩护人陈文兵,广西华锦律师事务所律师。被告人豆家德,男,公民身份证号码XXX1538,汉族,小学文化,住广东省湛江市徐闻县,因本案,于2014年12月20日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区人民检察院批准,同年12月25日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。被告人莫锡明,男,公民身份证号码×××5919,汉族,中专文化,住广西壮族自治区博白县,因犯信用卡诈骗罪,于2013年12月19日被广东省佛山市高明区人民法院判处有期徒刑五年二个月;因本案于2015年5月7日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区人民检察院批准,于2015年5月15日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。辩护人刘丽萍,广西杜坤律师事务所律师。被告人向三东,男,1975年9月5日出生于湖北省孝昌县,汉族,初中文化,公民身份证号xXXX,住广西陆川一出租屋。因犯有抢劫罪,于2005年4月12日被广东省深圳市福田区人民法院判处有期徒刑12年,2012年8月29日刑满释放;因本案于2014年12月20日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区人民检察院批准,同年12月25日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。\",\"c_gkws_glah\":\"麻检公诉刑诉（2015）177号\",\"c_gkws_pjjg\":\"一、被告人万胜犯信用卡诈骗罪,判处有期徒刑十二年,并处罚金人民币20万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2014年12月20日起至2026年12月19日止。罚金限于本判决生效后十日内缴纳,上缴国库。)二、被告人豆家德犯信用卡诈骗罪,判处有期徒刑十年,并处罚金人民币15万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2014年12月20日起至2024年12月19日止。罚金限于本判决生效后十日内缴纳,上缴国库。)三、被告人莫锡明犯信用卡诈骗罪,判处有期徒刑五年六个月,并处罚金人民币8万元;被告人莫锡明因信用卡诈骗罪,被广东省佛山市高明区人民法院于2013年12月19日判处有期徒刑五年二个月,并处罚金人民币8万元。数罪并罚决定执行有期徒刑十年,罚金人民币16万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2013年5月22日起至2023年5月21日止。罚金限于本判决生效后十日内缴纳,上缴国库。)四、被告人向三东犯信用卡诈骗罪,判处有期徒刑五年二个月,并处罚金人民币5万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2014年12月20日起至2020年2月19日止。罚金限于本判决生效后十日内缴纳,上缴国库。)五、缴获的人民币1644元、手机3部、驾驶证1张、身份证6张、中国农业银行卡6张、中国邮政储蓄银行卡4张、中国建设银行卡2张、信用卡读卡器1部,予以没收。如不服本判决,可在接到判决书的第二日起十日内,通过本院或者直接向广东省湛江市中级人民法院提出上诉。书面上诉的,应当提交上诉状正本一份,副本五份。\",\"d_jarq\":\"2016-06-29\",\"d_larq\":\"2015-12-07\",\"n_ajjzjd\":\"已结案\",\"n_jaay\":\"信用卡诈骗罪\",\"n_jafs\":\"判决\",\"n_jbfy\":\"湛江市麻章区人民法院\",\"n_laay\":\"信用卡诈骗罪\",\"n_slcx\":\"一审\",\"n_ssdw\":\"被告人\",\"n_ssdw_ys\":\"被告人\"}],\"count\":{\"area_stat\":\"广东省(1)\",\"ay_stat\":\"破坏社会主义市场经济秩序罪(1)\",\"count_beigao\":\"1\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"0\",\"jafs_stat\":\"判决(1)\",\"larq_stat\":\"2015(1)\",\"money_beigao\":\"6\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"0\"}}}"
+2019-10-30 12:05:49 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:""
+2019-10-30 12:06:36 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"token error!"
+2019-10-30 12:24:56 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"civil\":{\"area_stat\":\"山东省(2),北京市(1)\",\"ay_stat\":\"合同、无因管理、不当得利纠纷(3)\",\"count_beigao\":\"1\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"2\",\"jafs_stat\":\"调解(1),准予撤诉(1),按撤诉处理(1)\",\"larq_stat\":\"2017(2),2018(1)\",\"money_beigao\":\"0\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"2\"},\"implement\":{\"area_stat\":\"山东省(1)\",\"ay_stat\":\"其他(1)\",\"count_beigao\":\"1\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"0\",\"jafs_stat\":\"保全完毕(1)\",\"larq_stat\":\"2018(1)\",\"money_beigao\":\"0\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"0\"}}"
+2019-10-30 12:27:26 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:""
+2019-10-30 12:27:44 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"criminal\":{\"cases\":[{\"c_ah\":\"（2015）湛麻法刑初字第202号\",\"c_gkws_dsr\":\"公诉机关广东省湛江市麻章区人民检察院。被告人万胜,男,公民身份号码×××3110,汉族,初中文化,住广西壮族自治区陆川县。因犯有诈骗罪,于2004年11月25日被广东省湛江市霞山区人民法院判处有期徒刑10年,2011年4月27日刑满释放;因本案,于2014年12月20日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区检察院批准,同年12月25日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。辩护人陈文兵,广西华锦律师事务所律师。被告人豆家德,男,公民身份证号码XXX1538,汉族,小学文化,住广东省湛江市徐闻县,因本案,于2014年12月20日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区人民检察院批准,同年12月25日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。被告人莫锡明,男,公民身份证号码×××5919,汉族,中专文化,住广西壮族自治区博白县,因犯信用卡诈骗罪,于2013年12月19日被广东省佛山市高明区人民法院判处有期徒刑五年二个月;因本案于2015年5月7日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区人民检察院批准,于2015年5月15日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。辩护人刘丽萍,广西杜坤律师事务所律师。被告人向三东,男,1975年9月5日出生于湖北省孝昌县,汉族,初中文化,公民身份证号xXXX,住广西陆川一出租屋。因犯有抢劫罪,于2005年4月12日被广东省深圳市福田区人民法院判处有期徒刑12年,2012年8月29日刑满释放;因本案于2014年12月20日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区人民检察院批准,同年12月25日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。\",\"c_gkws_glah\":\"麻检公诉刑诉（2015）177号\",\"c_gkws_pjjg\":\"一、被告人万胜犯信用卡诈骗罪,判处有期徒刑十二年,并处罚金人民币20万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2014年12月20日起至2026年12月19日止。罚金限于本判决生效后十日内缴纳,上缴国库。)二、被告人豆家德犯信用卡诈骗罪,判处有期徒刑十年,并处罚金人民币15万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2014年12月20日起至2024年12月19日止。罚金限于本判决生效后十日内缴纳,上缴国库。)三、被告人莫锡明犯信用卡诈骗罪,判处有期徒刑五年六个月,并处罚金人民币8万元;被告人莫锡明因信用卡诈骗罪,被广东省佛山市高明区人民法院于2013年12月19日判处有期徒刑五年二个月,并处罚金人民币8万元。数罪并罚决定执行有期徒刑十年,罚金人民币16万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2013年5月22日起至2023年5月21日止。罚金限于本判决生效后十日内缴纳,上缴国库。)四、被告人向三东犯信用卡诈骗罪,判处有期徒刑五年二个月,并处罚金人民币5万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2014年12月20日起至2020年2月19日止。罚金限于本判决生效后十日内缴纳,上缴国库。)五、缴获的人民币1644元、手机3部、驾驶证1张、身份证6张、中国农业银行卡6张、中国邮政储蓄银行卡4张、中国建设银行卡2张、信用卡读卡器1部,予以没收。如不服本判决,可在接到判决书的第二日起十日内,通过本院或者直接向广东省湛江市中级人民法院提出上诉。书面上诉的,应当提交上诉状正本一份,副本五份。\",\"d_jarq\":\"2016-06-29\",\"d_larq\":\"2015-12-07\",\"n_ajjzjd\":\"已结案\",\"n_jaay\":\"信用卡诈骗罪\",\"n_jafs\":\"判决\",\"n_jbfy\":\"湛江市麻章区人民法院\",\"n_laay\":\"信用卡诈骗罪\",\"n_slcx\":\"一审\",\"n_ssdw\":\"被告人\",\"n_ssdw_ys\":\"被告人\"}],\"count\":{\"area_stat\":\"广东省(1)\",\"ay_stat\":\"破坏社会主义市场经济秩序罪(1)\",\"count_beigao\":\"1\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"0\",\"jafs_stat\":\"判决(1)\",\"larq_stat\":\"2015(1)\",\"money_beigao\":\"6\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"0\"}}}"
+2019-10-30 12:38:44 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: NullPointerException</H2>
+<hr />
+<P>错误描述：</P>
+null
+<P>错误信息：</P>
+java.lang.NullPointerException
+	at com.bg.interfaces.service.impl.BPEntServiceImpl.transformCases(BPEntServiceImpl.java:374)
+	at com.bg.interfaces.service.impl.BPEntServiceImpl.entoutService(BPEntServiceImpl.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:318)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.cache.interceptor.CacheInterceptor$1.invoke(CacheInterceptor.java:58)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:213)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:66)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)
+	at com.sun.proxy.$Proxy176.entoutService(Unknown Source)
+	at com.bg.interfaces.controller.BPController.entout(BPController.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+</body>
+</html>
+2019-10-30 12:41:19 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"criminal\":{\"cases\":[{\"c_ah\":\"（2015）湛麻法刑初字第202号\",\"c_gkws_dsr\":\"公诉机关广东省湛江市麻章区人民检察院。被告人万胜,男,公民身份号码×××3110,汉族,初中文化,住广西壮族自治区陆川县。因犯有诈骗罪,于2004年11月25日被广东省湛江市霞山区人民法院判处有期徒刑10年,2011年4月27日刑满释放;因本案,于2014年12月20日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区检察院批准,同年12月25日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。辩护人陈文兵,广西华锦律师事务所律师。被告人豆家德,男,公民身份证号码XXX1538,汉族,小学文化,住广东省湛江市徐闻县,因本案,于2014年12月20日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区人民检察院批准,同年12月25日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。被告人莫锡明,男,公民身份证号码×××5919,汉族,中专文化,住广西壮族自治区博白县,因犯信用卡诈骗罪,于2013年12月19日被广东省佛山市高明区人民法院判处有期徒刑五年二个月;因本案于2015年5月7日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区人民检察院批准,于2015年5月15日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。辩护人刘丽萍,广西杜坤律师事务所律师。被告人向三东,男,1975年9月5日出生于湖北省孝昌县,汉族,初中文化,公民身份证号xXXX,住广西陆川一出租屋。因犯有抢劫罪,于2005年4月12日被广东省深圳市福田区人民法院判处有期徒刑12年,2012年8月29日刑满释放;因本案于2014年12月20日被广东省湛江市公安局麻章分局刑事拘留,经广东省湛江市麻章区人民检察院批准,同年12月25日被广东省湛江市公安局麻章分局逮捕,现羁押在湛江市麻章区看守所。\",\"c_gkws_glah\":\"麻检公诉刑诉（2015）177号\",\"c_gkws_pjjg\":\"一、被告人万胜犯信用卡诈骗罪,判处有期徒刑十二年,并处罚金人民币20万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2014年12月20日起至2026年12月19日止。罚金限于本判决生效后十日内缴纳,上缴国库。)二、被告人豆家德犯信用卡诈骗罪,判处有期徒刑十年,并处罚金人民币15万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2014年12月20日起至2024年12月19日止。罚金限于本判决生效后十日内缴纳,上缴国库。)三、被告人莫锡明犯信用卡诈骗罪,判处有期徒刑五年六个月,并处罚金人民币8万元;被告人莫锡明因信用卡诈骗罪,被广东省佛山市高明区人民法院于2013年12月19日判处有期徒刑五年二个月,并处罚金人民币8万元。数罪并罚决定执行有期徒刑十年,罚金人民币16万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2013年5月22日起至2023年5月21日止。罚金限于本判决生效后十日内缴纳,上缴国库。)四、被告人向三东犯信用卡诈骗罪,判处有期徒刑五年二个月,并处罚金人民币5万元。(刑期从判决执行之日起计算。判决执行以前先行羁押的,羁押一日折抵刑期一日。即自2014年12月20日起至2020年2月19日止。罚金限于本判决生效后十日内缴纳,上缴国库。)五、缴获的人民币1644元、手机3部、驾驶证1张、身份证6张、中国农业银行卡6张、中国邮政储蓄银行卡4张、中国建设银行卡2张、信用卡读卡器1部,予以没收。如不服本判决,可在接到判决书的第二日起十日内,通过本院或者直接向广东省湛江市中级人民法院提出上诉。书面上诉的,应当提交上诉状正本一份,副本五份。\",\"d_jarq\":\"2016-06-29\",\"d_larq\":\"2015-12-07\",\"n_ajjzjd\":\"已结案\",\"n_jaay\":\"信用卡诈骗罪\",\"n_jafs\":\"判决\",\"n_jbfy\":\"湛江市麻章区人民法院\",\"n_laay\":\"信用卡诈骗罪\",\"n_slcx\":\"一审\",\"n_ssdw\":\"被告人\",\"n_ssdw_ys\":\"被告人\"}],\"count\":{\"area_stat\":\"广东省(1)\",\"ay_stat\":\"破坏社会主义市场经济秩序罪(1)\",\"count_beigao\":\"1\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"0\",\"jafs_stat\":\"判决(1)\",\"larq_stat\":\"2015(1)\",\"money_beigao\":\"6\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"0\"}}}"
+2019-10-30 12:42:26 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"token error!"
+2019-10-30 12:42:38 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"criminal\":{\"cases\":[{\"c_ah\":\"（2019）新0104刑初161号\",\"d_jarq\":\"2019-02-27\",\"d_larq\":\"\",\"n_ajjzjd\":\"已结案\",\"n_jaay\":\"危险驾驶罪\",\"n_jafs\":\"判决\",\"n_jbfy\":\"乌鲁木齐市新市区人民法院\",\"n_laay\":\"危险驾驶罪\",\"n_slcx\":\"一审\",\"n_ssdw\":\"自诉人\",\"n_ssdw_ys\":\"自诉人\"}],\"count\":{\"area_stat\":\"新疆维吾尔自治区(1)\",\"ay_stat\":\"危害公共安全罪(1)\",\"count_beigao\":\"0\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"1\",\"jafs_stat\":\"判决(1)\",\"larq_stat\":\"其他(1)\",\"money_beigao\":\"0\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"1\"}}}"
+2019-10-30 12:43:35 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"token error!"
+2019-10-30 12:43:47 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:
+<html>
+<head>
+<title>Exception!</title>
+</head>
+<body>
+
+<H2>错误异常: NullPointerException</H2>
+<hr />
+<P>错误描述：</P>
+null
+<P>错误信息：</P>
+java.lang.NullPointerException
+	at com.bg.interfaces.service.impl.BPEntServiceImpl.transformCases(BPEntServiceImpl.java:366)
+	at com.bg.interfaces.service.impl.BPEntServiceImpl.entoutService(BPEntServiceImpl.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:318)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.cache.interceptor.CacheInterceptor$1.invoke(CacheInterceptor.java:58)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:213)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:66)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)
+	at com.sun.proxy.$Proxy264.entoutService(Unknown Source)
+	at com.bg.interfaces.controller.BPController.entout(BPController.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:140)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1002)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+</body>
+</html>
+2019-10-30 12:46:49 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"criminal\":{\"count\":{\"area_stat\":\"江苏省(1)\",\"ay_stat\":\"妨害社会管理秩序罪(1)\",\"count_beigao\":\"1\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"0\",\"jafs_stat\":\"判决(1)\",\"larq_stat\":\"2015(1)\",\"money_beigao\":\"0\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"0\"}}}"
+2019-10-30 12:51:13 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"criminal\":{\"cases\":[{\"c_ah\":\"（2019）新0104刑初161号\",\"d_jarq\":\"2019-02-27\",\"d_larq\":\"\",\"n_ajjzjd\":\"已结案\",\"n_jaay\":\"危险驾驶罪\",\"n_jafs\":\"判决\",\"n_jbfy\":\"乌鲁木齐市新市区人民法院\",\"n_laay\":\"危险驾驶罪\",\"n_slcx\":\"一审\",\"n_ssdw\":\"自诉人\",\"n_ssdw_ys\":\"自诉人\"}],\"count\":{\"area_stat\":\"新疆维吾尔自治区(1)\",\"ay_stat\":\"危害公共安全罪(1)\",\"count_beigao\":\"0\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"1\",\"jafs_stat\":\"判决(1)\",\"larq_stat\":\"其他(1)\",\"money_beigao\":\"0\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"1\"}}}"
+2019-10-30 12:52:07 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"civil\":{\"cases\":[{\"c_ah\":\"(2015)九法民初字第16649号\",\"c_gkws_dsr\":\"原告山东山工租赁有限公司,住所地山东省济南市高新区新泺大街786号,组织机构代码73263516-7。法定代表人赵沂斌,董事长。被告尹本会,女。被告董太春,男。被告尹本初,男。被告吕世珍,女。\",\"c_gkws_pjjg\":\"准许原告山东山工租赁有限公司撤回对被告尹本会、董太春、尹本初、吕世珍的起诉。本案案件受理费为50元,由原告山东山工租赁有限公司负担。\",\"d_jarq\":\"2015-11-19\",\"d_larq\":\"2015-11-03\",\"n_ajjzjd\":\"已结案\",\"n_jaay\":\"融资租赁合同纠纷\",\"n_jabdje\":\"0\",\"n_jafs\":\"按撤诉处理\",\"n_jbfy\":\"重庆市九龙坡区人民法院\",\"n_laay\":\"融资租赁合同纠纷\",\"n_qsbdje\":\"77580\",\"n_slcx\":\"一审\",\"n_ssdw\":\"被告\",\"n_ssdw_ys\":\"被告\"},{\"c_ah\":\"(2016)渝0107民初819号\",\"c_gkws_dsr\":\"原告:山东山工租赁有限公司。住所地:山东省济南市高新区新泺大街786号,组织机构代码:73263516-7。法定代表人:赵沂斌,董事长。委托代理人:杨小琴,系公司员工。被告:尹本会,女,汉族,1965年3月16日生,住重庆市永川区。被告:董太春,男,汉族,1968年4月17日生,住重庆市永川区。被告:尹本初,男,汉族,1962年6月25日生,住重庆市江津区。被告:吕世珍,女,汉族,1968年12月4日生,住重庆市江津区。\",\"c_gkws_pjjg\":\"一、被告尹本会于本判决生效后五日内给付原告山东山工租赁有限公司到期租金75000元及违约金(截止到2015年12月28日的违约金3772.5元,之后的违约金从2015年12月29日起以75000元为基数按照日万分之三计算至本息付清之日止);二、被告董太春、尹本初、吕世珍对被告尹本会的上述债务向原告山东山工租赁有限公司承担连带清偿责任。如果未按本判决指定的期间履行给付金钱义务,应当依照《中华人民共和国民事诉讼法》第二百五十三条之规定,加倍支付迟延履行期间的债务利息。本案案件受理费为1768元,公告费350元,合计2118元,由被告尹本会、董太春、尹本初、吕世珍共同负担(因原告已预交,由四被告在支付上述应付款项时一并给付)。如不服本判决,可在判决书送达之日起十五日内向本院递交上诉状,并按对方当事人的人数提出副本,上诉于重庆市第五中级人民法院。同时,直接向该院预交上诉案件受理费。递交上诉状后上诉期满七日内仍未预交受理费又不提出缓交申请的,按自动撤回上诉处理。本判决发生法律效力后,当事人应自觉履行判决的全部义务。一方不履行的,自本判决内容生效后,权利人可以向人民法院申请强制执行。申请强制执行的期限为二年,该期限从法律文书规定履行期间的最后一日起计算。\",\"d_jarq\":\"2016-06-29\",\"d_larq\":\"2016-01-14\",\"n_ajjzjd\":\"已结案\",\"n_jaay\":\"融资租赁合同纠纷\",\"n_jabdje\":\"78772\",\"n_jafs\":\"判决\",\"n_jbfy\":\"重庆市九龙坡区人民法院\",\"n_laay\":\"融资租赁合同纠纷\",\"n_qsbdje\":\"78772\",\"n_slcx\":\"一审\",\"n_ssdw\":\"被告\",\"n_ssdw_ys\":\"被告\"}],\"count\":{\"area_stat\":\"重庆市(2)\",\"ay_stat\":\"合同、无因管理、不当得利纠纷(2)\",\"count_beigao\":\"2\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"0\",\"jafs_stat\":\"判决(1),按撤诉处理(1)\",\"larq_stat\":\"2015(1),2016(1)\",\"money_beigao\":\"3\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"0\"}}}"
+2019-10-30 12:52:44 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"token error!"
+2019-10-30 12:52:58 [main] INFO  es.service.impl.GateWayServiceByGYZJImpl -post body:"{\"civil\":{\"cases\":[{\"c_ah\":\"（2019）冀0636民初566号\",\"d_jarq\":\"2019-06-03\",\"d_larq\":\"2019-05-10\",\"n_ajjzjd\":\"已结案\",\"n_jaay\":\"离婚纠纷\",\"n_jabdje\":\"31500\",\"n_jafs\":\"调解\",\"n_jbfy\":\"顺平县人民法院\",\"n_laay\":\"离婚纠纷\",\"n_qsbdje\":\"0\",\"n_slcx\":\"一审\",\"n_ssdw\":\"原告\",\"n_ssdw_ys\":\"原告\"},{\"c_ah\":\"（2018）冀0636民初758号\",\"d_jarq\":\"2018-09-25\",\"d_larq\":\"2018-08-15\",\"n_ajjzjd\":\"已结案\",\"n_jaay\":\"离婚纠纷\",\"n_jabdje\":\"0\",\"n_jafs\":\"判决\",\"n_jbfy\":\"顺平县人民法院\",\"n_laay\":\"离婚纠纷\",\"n_qsbdje\":\"0\",\"n_slcx\":\"一审\",\"n_ssdw\":\"原告\",\"n_ssdw_ys\":\"原告\"}],\"count\":{\"area_stat\":\"河北省(2)\",\"ay_stat\":\"婚姻家庭、继承纠纷(2)\",\"count_beigao\":\"0\",\"count_other\":\"0\",\"count_wei_beigao\":\"0\",\"count_wei_other\":\"0\",\"count_wei_yuangao\":\"0\",\"count_yuangao\":\"2\",\"jafs_stat\":\"调解(1),判决(1)\",\"larq_stat\":\"2018(1),2019(1)\",\"money_beigao\":\"0\",\"money_other\":\"0\",\"money_wei_beigao\":\"0\",\"money_wei_other\":\"0\",\"money_wei_yuangao\":\"0\",\"money_yuangao\":\"2\"}}}"
+2019-10-30 19:32:28 [main] INFO  .trans.service.impl.TransGYZJServiceImpl -{"data":{"count":{"count_total":4,"count_wei_total":1,"count_jie_total":3,"count_yuangao":0,"count_wei_yuangao":0,"count_jie_yuangao":0,"count_beigao":4,"count_wei_beigao":1,"count_jie_beigao":3,"count_other":0,"count_wei_other":0,"count_jie_other":0,"money_total":8,"money_wei_total":8,"money_jie_total":4,"money_wei_percent":0.9,"money_yuangao":0,"money_wei_yuangao":0,"money_jie_yuangao":0,"money_beigao":8,"money_wei_beigao":8,"money_jie_beigao":4,"money_other":0,"money_wei_other":0,"money_jie_other":0,"area_stat":"河北省(4)","ay_stat":"合同、无因管理、不当得利纠纷(2),其他(2)","larq_stat":"2019(4)","jafs_stat":"部分保全(1),准予撤诉(1),保全完毕(1)"},"civil":{"count":{"count_total":2,"count_wei_total":1,"count_jie_total":1,"count_yuangao":0,"count_wei_yuangao":0,"count_jie_yuangao":0,"count_beigao":2,"count_wei_beigao":1,"count_jie_beigao":1,"count_other":0,"count_wei_other":0,"count_jie_other":0,"money_total":8,"money_wei_total":8,"money_jie_total":4,"money_wei_percent":0.9,"money_yuangao":0,"money_wei_yuangao":0,"money_jie_yuangao":0,"money_beigao":8,"money_wei_beigao":8,"money_jie_beigao":4,"money_other":0,"money_wei_other":0,"money_jie_other":0,"area_stat":"河北省(2)","ay_stat":"合同、无因管理、不当得利纠纷(2)","larq_stat":"2019(2)","jafs_stat":"准予撤诉(1)"},"cases":[{"n_ajlx":"民事一审","c_ah":"（2019）冀0923民初1138号","c_ah_hx":"（2019）冀0923执保328号:5d3fc42f72a657c018d346dcf5c291ff","n_ajbs":"d8ea07c6135dfe806f073c26102ff235","n_jbfy":"东光县人民法院","n_jbfy_cj":"基层法院","n_ajjzjd":"已结案","n_slcx":"一审","c_ssdy":"河北省","d_larq":"2019-05-13","n_laay":"民间借贷纠纷","n_qsbdje":200000,"d_jarq":"2019-06-04","n_jafs":"准予撤诉","n_jaay":"民间借贷纠纷","n_jabdje":200000,"n_ssdw":"被告","n_ssdw_ys":"被告"}]},"criminal":{},"administrative":{},"implement":{"count":{"count_total":2,"count_wei_total":0,"count_jie_total":2,"count_yuangao":0,"count_wei_yuangao":0,"count_jie_yuangao":0,"count_beigao":2,"count_wei_beigao":0,"count_jie_beigao":2,"count_other":0,"count_wei_other":0,"count_jie_other":0,"money_total":0,"money_wei_total":0,"money_jie_total":0,"money_yuangao":0,"money_wei_yuangao":0,"money_jie_yuangao":0,"money_beigao":0,"money_wei_beigao":0,"money_jie_beigao":0,"money_other":0,"money_wei_other":0,"money_jie_other":0,"area_stat":"河北省(2)","ay_stat":"其他(2)","larq_stat":"2019(2)","jafs_stat":"部分保全(1),保全完毕(1)"},"cases":[{"n_ajlx":"财产保全执行","c_ah":"（2019）冀0902执保304号","c_ah_ys":"（2019）冀0902民初****号:1b4d6f27a84d9a24dd26578ab97e66ff","n_ajbs":"080eb0b2107b194c4e99eb1ea791f44e","n_jbfy":"沧州市新华区人民法院","n_jbfy_cj":"基层法院","n_ajjzjd":"已结案","c_ssdy":"河北省","d_larq":"2019-08-19","n_laay":"其他","d_jarq":"2019-08-21","n_jaay":"其他","n_jafs":"保全完毕","n_ssdw":"被执行人"},{"n_ajlx":"财产保全执行","c_ah":"（2019）冀0923执保328号","c_ah_ys":"（2019）冀0923民初1138号:d8ea07c6135dfe806f073c26102ff235","n_ajbs":"5d3fc42f72a657c018d346dcf5c291ff","n_jbfy":"东光县人民法院","n_jbfy_cj":"基层法院","n_ajjzjd":"已结案","c_ssdy":"河北省","d_larq":"2019-05-23","n_laay":"其他","d_jarq":"2019-06-04","n_jaay":"其他","n_jafs":"部分保全","n_ssdw":"被执行人"}]},"bankrupt":{},"cases_tree":{"civil":[{"c_ah":"（2019）冀0902民初****号","n_ajbs":"1b4d6f27a84d9a24dd26578ab97e66ff","stage_type":1,"case_type":300,"next":{"c_ah":"（2019）冀0902执保304号","n_ajbs":"080eb0b2107b194c4e99eb1ea791f44e","stage_type":5,"case_type":1000}},{"c_ah":"（2019）冀0923民初1138号","n_ajbs":"d8ea07c6135dfe806f073c26102ff235","stage_type":1,"case_type":300,"next":{"c_ah":"（2019）冀0923执保328号","n_ajbs":"5d3fc42f72a657c018d346dcf5c291ff","stage_type":5,"case_type":1000}}]}}}
+2019-10-30 20:38:54 [main] INFO  .trans.service.impl.TransGYZJServiceImpl -{"data":{"count":{"count_total":5,"count_wei_total":1,"count_jie_total":4,"count_yuangao":0,"count_wei_yuangao":0,"count_jie_yuangao":0,"count_beigao":5,"count_wei_beigao":1,"count_jie_beigao":4,"count_other":0,"count_wei_other":0,"count_jie_other":0,"money_total":8,"money_wei_total":8,"money_jie_total":0,"money_wei_percent":1,"money_yuangao":0,"money_wei_yuangao":0,"money_jie_yuangao":0,"money_beigao":8,"money_wei_beigao":8,"money_jie_beigao":0,"money_other":0,"money_wei_other":0,"money_jie_other":0,"area_stat":"天津市(3),河北省(2)","ay_stat":"其他(3),合同、无因管理、不当得利纠纷(2)","larq_stat":"2018(3),2019(2)","jafs_stat":"保全完毕(2),解除保全(1),调解(1)"},"civil":{"count":{"count_total":2,"count_wei_total":1,"count_jie_total":1,"count_yuangao":0,"count_wei_yuangao":0,"count_jie_yuangao":0,"count_beigao":2,"count_wei_beigao":1,"count_jie_beigao":1,"count_other":0,"count_wei_other":0,"count_jie_other":0,"money_total":8,"money_wei_total":8,"money_jie_total":0,"money_wei_percent":1,"money_yuangao":0,"money_wei_yuangao":0,"money_jie_yuangao":0,"money_beigao":8,"money_wei_beigao":8,"money_jie_beigao":0,"money_other":0,"money_wei_other":0,"money_jie_other":0,"area_stat":"天津市(1),河北省(1)","ay_stat":"合同、无因管理、不当得利纠纷(2)","larq_stat":"2018(1),2019(1)","jafs_stat":"调解(1)"},"cases":[{"n_ajlx":"民事一审","c_ah":"(2018)津0116民初61842号","c_ah_hx":"(2018)津0116执保60112号:630c89c3d9063d002dbc743913059b3c","n_ajbs":"7300da7ea5b8d5263629fd1c3b99b54e","n_jbfy":"天津市滨海新区人民法院","n_jbfy_cj":"基层法院","n_ajjzjd":"已结案","n_slcx":"一审","c_ssdy":"天津市","d_larq":"2018-04-16","n_laay":"买卖合同纠纷","n_qsbdje":387034,"d_jarq":"2018-05-07","n_jafs":"调解","n_jaay":"买卖合同纠纷","n_ssdw":"被告","n_ssdw_ys":"被告","c_gkws_dsr":"申请人:天津市山水涂料有限公司,住所地天津市滨海新区中塘镇薛卫台村平福里37号,统一社会信用代码911201166974018315。被申请人:沧州新星石化设备有限公司,住所地河北省东光县城东开发区,统一社会信用代码91130923795496600X。被申请人:李广成,男,1962年4月7日出生,汉族,住河北省沧州市东光县。","c_gkws_pjjg":"冻结被申请人沧州新星石化设备有限公司、李广成的银行存款420000元或查封、扣押其同等价值的其他财产。本裁定立即开始执行。如不服本裁定,可以自收到裁定书之日起五日内向本院申请复议一次。复议期间不停止裁定执行。"}]},"criminal":{},"administrative":{},"implement":{"count":{"count_total":3,"count_wei_total":0,"count_jie_total":3,"count_yuangao":0,"count_wei_yuangao":0,"count_jie_yuangao":0,"count_beigao":3,"count_wei_beigao":0,"count_jie_beigao":3,"count_other":0,"count_wei_other":0,"count_jie_other":0,"money_total":0,"money_wei_total":0,"money_jie_total":0,"money_yuangao":0,"money_wei_yuangao":0,"money_jie_yuangao":0,"money_beigao":0,"money_wei_beigao":0,"money_jie_beigao":0,"money_other":0,"money_wei_other":0,"money_jie_other":0,"area_stat":"天津市(2),河北省(1)","ay_stat":"其他(3)","larq_stat":"2018(2),2019(1)","jafs_stat":"保全完毕(2),解除保全(1)"},"cases":[{"n_ajlx":"财产保全执行","c_ah":"(2018)津0116执保60112号","c_ah_ys":"(2018)津0116民初61842号:7300da7ea5b8d5263629fd1c3b99b54e","c_ah_hx":"(2018)津0116执保60122号:05264939f81d2667f8064fd07cc0c794","n_ajbs":"630c89c3d9063d002dbc743913059b3c","n_jbfy":"天津市滨海新区人民法院","n_jbfy_cj":"基层法院","n_ajjzjd":"已结案","c_ssdy":"天津市","d_larq":"2018-04-24","n_laay":"其他","d_jarq":"2018-05-07","n_jaay":"其他","n_jafs":"保全完毕","n_ssdw":"被执行人","c_gkws_dsr":"申请执行人:天津市山水涂料有限公司。被执行人:沧州新星石化设备有限公司、李广成。天津市山水涂料有限公司与沧州新星石化设备有限公司、李广成买卖合同纠纷一案,申请执行人提出财产保全申请,本院出具裁定,冻结沧州新星石化设备有限公司、李广成的银行存款420000元或查封、扣押其同等价值的其他财产,后本院依法冻结了沧州新星石化设备有限公司名下银行存款420000元,现本案保全完毕结案。特此通知"},{"n_ajlx":"财产保全执行","c_ah":"(2018)津0116执保60122号","c_ah_ys":"(2018)津0116执保60112号:630c89c3d9063d002dbc743913059b3c","n_ajbs":"05264939f81d2667f8064fd07cc0c794","n_jbfy":"天津市滨海新区人民法院","n_jbfy_cj":"基层法院","n_ajjzjd":"已结案","c_ssdy":"天津市","d_larq":"2018-05-08","n_laay":"其他","d_jarq":"2018-05-15","n_jaay":"其他","n_jafs":"解除保全","n_ssdw":"被执行人"},{"n_ajlx":"财产保全执行","c_ah":"（2019）冀0902执保304号","c_ah_ys":"（2019）冀0902民初****号:1b4d6f27a84d9a24dd26578ab97e66ff","n_ajbs":"080eb0b2107b194c4e99eb1ea791f44e","n_jbfy":"沧州市新华区人民法院","n_jbfy_cj":"基层法院","n_ajjzjd":"已结案","c_ssdy":"河北省","d_larq":"2019-08-19","n_laay":"其他","d_jarq":"2019-08-21","n_jaay":"其他","n_jafs":"保全完毕","n_ssdw":"被执行人"}]},"bankrupt":{},"cases_tree":{"civil":[{"c_ah":"（2019）冀0902民初****号","n_ajbs":"1b4d6f27a84d9a24dd26578ab97e66ff","stage_type":1,"case_type":300,"next":{"c_ah":"（2019）冀0902执保304号","n_ajbs":"080eb0b2107b194c4e99eb1ea791f44e","stage_type":5,"case_type":1000}},{"c_ah":"（2018）津0116民初61842号","n_ajbs":"7300da7ea5b8d5263629fd1c3b99b54e","stage_type":1,"case_type":300,"next":{"c_ah":"（2018）津0116执保60112号","n_ajbs":"630c89c3d9063d002dbc743913059b3c","stage_type":5,"case_type":1000,"next":{"c_ah":"（2018）津0116执保60122号","n_ajbs":"05264939f81d2667f8064fd07cc0c794","stage_type":5,"case_type":1000}}}]}}}
+2019-10-30 20:59:56 [main] INFO  .trans.service.impl.TransGYZJServiceImpl -{"data":{"count":{"count_total":2,"count_wei_total":1,"count_jie_total":1,"count_yuangao":0,"count_wei_yuangao":0,"count_jie_yuangao":0,"count_beigao":2,"count_wei_beigao":1,"count_jie_beigao":1,"count_other":0,"count_wei_other":0,"count_jie_other":0,"money_total":8,"money_wei_total":8,"money_jie_total":0,"money_wei_percent":1,"money_yuangao":0,"money_wei_yuangao":0,"money_jie_yuangao":0,"money_beigao":8,"money_wei_beigao":8,"money_jie_beigao":0,"money_other":0,"money_wei_other":0,"money_jie_other":0,"area_stat":"河北省(2)","ay_stat":"合同、无因管理、不当得利纠纷(1),其他(1)","larq_stat":"2019(2)","jafs_stat":"保全完毕(1)"},"civil":{"count":{"count_total":1,"count_wei_total":1,"count_jie_total":0,"count_yuangao":0,"count_wei_yuangao":0,"count_jie_yuangao":0,"count_beigao":1,"count_wei_beigao":1,"count_jie_beigao":0,"count_other":0,"count_wei_other":0,"count_jie_other":0,"money_total":8,"money_wei_total":8,"money_jie_total":0,"money_wei_percent":1,"money_yuangao":0,"money_wei_yuangao":0,"money_jie_yuangao":0,"money_beigao":8,"money_wei_beigao":8,"money_jie_beigao":0,"money_other":0,"money_wei_other":0,"money_jie_other":0,"area_stat":"河北省(1)","ay_stat":"合同、无因管理、不当得利纠纷(1)","larq_stat":"2019(1)","jafs_stat":""}},"criminal":{},"administrative":{},"implement":{"count":{"count_total":1,"count_wei_total":0,"count_jie_total":1,"count_yuangao":0,"count_wei_yuangao":0,"count_jie_yuangao":0,"count_beigao":1,"count_wei_beigao":0,"count_jie_beigao":1,"count_other":0,"count_wei_other":0,"count_jie_other":0,"money_total":0,"money_wei_total":0,"money_jie_total":0,"money_yuangao":0,"money_wei_yuangao":0,"money_jie_yuangao":0,"money_beigao":0,"money_wei_beigao":0,"money_jie_beigao":0,"money_other":0,"money_wei_other":0,"money_jie_other":0,"area_stat":"河北省(1)","ay_stat":"其他(1)","larq_stat":"2019(1)","jafs_stat":"保全完毕(1)"},"cases":[{"n_ajlx":"财产保全执行","c_ah":"（2019）冀0902执保304号","c_ah_ys":"（2019）冀0902民初****号:1b4d6f27a84d9a24dd26578ab97e66ff","n_ajbs":"080eb0b2107b194c4e99eb1ea791f44e","n_jbfy":"沧州市新华区人民法院","n_jbfy_cj":"基层法院","n_ajjzjd":"已结案","c_ssdy":"河北省","d_larq":"2019-08-19","n_laay":"其他","d_jarq":"2019-08-21","n_jaay":"其他","n_jafs":"保全完毕","n_ssdw":"被执行人"}]},"bankrupt":{},"cases_tree":{"civil":[{"c_ah":"（2019）冀0902民初****号","n_ajbs":"1b4d6f27a84d9a24dd26578ab97e66ff","stage_type":1,"case_type":300,"next":{"c_ah":"（2019）冀0902执保304号","n_ajbs":"080eb0b2107b194c4e99eb1ea791f44e","stage_type":5,"case_type":1000}}]}}}
+2019-10-30 21:07:15 [main] INFO  .trans.service.impl.TransGYZJServiceImpl -{"status":{"status":-1,"error_code":-5,"error_message":"没有找到"}}
+2019-10-30 21:08:02 [main] INFO  .trans.service.impl.TransGYZJServiceImpl -{"status":{"status":-1,"error_code":-5,"error_message":"没有找到"}}
+2019-10-30 21:10:38 [main] INFO  .trans.service.impl.TransGYZJServiceImpl -{"status":{"status":-1,"error_code":-5,"error_message":"没有找到"}}
+2019-10-30 21:16:59 [main] INFO  .trans.service.impl.TransGYZJServiceImpl -{"status":{"status":-1,"error_code":-5,"error_message":"没有找到"}}
+2019-10-30 21:34:13 [main] INFO  .trans.service.impl.TransGYZJServiceImpl -{"status":{"status":-1,"error_code":-5,"error_message":"没有找到"}}

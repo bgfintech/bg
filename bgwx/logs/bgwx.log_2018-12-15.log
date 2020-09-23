@@ -1,0 +1,2 @@
+2018-12-15 11:16:06 [main] INFO  g.trans.service.impl.TransKFTServiceImpl -主扫支付响应：{"errorCode":"CASHIER_3100","failureDetails":"订单编号重复，系统拒绝处理","reqNo":"201712180015","status":"2"}
+2018-12-15 11:17:09 [main] INFO  g.trans.service.impl.TransKFTServiceImpl -主扫支付响应：{"errorCode":"CASHIER_3100","failureDetails":"订单编号重复，系统拒绝处理","reqNo":"201712180015","status":"2"}

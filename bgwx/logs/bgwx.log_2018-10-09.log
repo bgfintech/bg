@@ -1,0 +1,33 @@
+2018-10-09 13:27:04 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bg_ret_url":"http://test.widefinance.cn:8082/transController/hftxnotify.do","cert_id":"110101199003079411","cmd_id":"101","cust_area":"3100","cust_prov":"0031","mer_cust_id":"6666000000045782","order_date":"20180930","order_id":"20180930501004022016","solo_flg":"00000100","user_mobile":"15126311458","user_name":"李五","version":"10"}
+2018-10-09 13:27:04 [main] ERROR com.huifu.saturn.cfca.CFCASignature      -signature error:
+java.lang.NullPointerException
+	at cfca.sadk.asn1.pkcs.PKCS12.load(PKCS12.java:149)
+	at cfca.sadk.util.KeyUtil.getPrivateKeyFromPFX(KeyUtil.java:66)
+	at com.huifu.saturn.cfca.CFCASignature.signature(CFCASignature.java:51)
+	at com.huifu.saturn.cfca.CFCASignature.signature(CFCASignature.java:46)
+	at com.bg.trans.service.impl.TransHFTXServiceImpl.sign(TransHFTXServiceImpl.java:761)
+	at com.bg.trans.service.impl.TransHFTXServiceImpl.post(TransHFTXServiceImpl.java:773)
+	at com.bg.trans.service.impl.TransHFTXServiceImpl.trans101(TransHFTXServiceImpl.java:118)
+	at com.bg.trans.service.impl.TransHFTXServiceImpl.main(TransHFTXServiceImpl.java:745)
+2018-10-09 13:27:04 [main] ERROR .trans.service.impl.TransHFTXServiceImpl -加签失败:{"bg_ret_url":"http://test.widefinance.cn:8082/transController/hftxnotify.do","cert_id":"110101199003079411","cmd_id":"101","cust_area":"3100","cust_prov":"0031","mer_cust_id":"6666000000045782","order_date":"20180930","order_id":"20180930501004022016","solo_flg":"00000100","user_mobile":"15126311458","user_name":"李五","version":"10"}
+2018-10-09 13:27:04 [main] ERROR .trans.service.impl.TransHFTXServiceImpl -加签失败:{"bg_ret_url":"http://test.widefinance.cn:8082/transController/hftxnotify.do","cert_id":"110101199003079411","cmd_id":"101","cust_area":"3100","cust_prov":"0031","mer_cust_id":"6666000000045782","order_date":"20180930","order_id":"20180930501004022016","solo_flg":"00000100","user_mobile":"15126311458","user_name":"李五","version":"10"}
+2018-10-09 13:28:27 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bg_ret_url":"http://test.widefinance.cn:8082/transController/hftxnotify.do","cert_id":"110101199003079411","cmd_id":"101","cust_area":"3100","cust_prov":"0031","mer_cust_id":"6666000000045782","order_date":"20180930","order_id":"20180930501004022016","solo_flg":"00000100","user_mobile":"15126311458","user_name":"李五","version":"10"}
+2018-10-09 13:28:27 [main] ERROR com.huifu.saturn.cfca.CFCASignature      -signature error:
+java.lang.NullPointerException
+	at cfca.sadk.asn1.pkcs.PKCS12.load(PKCS12.java:149)
+	at cfca.sadk.util.KeyUtil.getPrivateKeyFromPFX(KeyUtil.java:66)
+	at com.huifu.saturn.cfca.CFCASignature.signature(CFCASignature.java:51)
+	at com.huifu.saturn.cfca.CFCASignature.signature(CFCASignature.java:46)
+	at com.bg.trans.service.impl.TransHFTXServiceImpl.sign(TransHFTXServiceImpl.java:761)
+	at com.bg.trans.service.impl.TransHFTXServiceImpl.post(TransHFTXServiceImpl.java:773)
+	at com.bg.trans.service.impl.TransHFTXServiceImpl.trans101(TransHFTXServiceImpl.java:118)
+	at com.bg.trans.service.impl.TransHFTXServiceImpl.main(TransHFTXServiceImpl.java:745)
+2018-10-09 13:28:27 [main] ERROR .trans.service.impl.TransHFTXServiceImpl -加签失败:{"bg_ret_url":"http://test.widefinance.cn:8082/transController/hftxnotify.do","cert_id":"110101199003079411","cmd_id":"101","cust_area":"3100","cust_prov":"0031","mer_cust_id":"6666000000045782","order_date":"20180930","order_id":"20180930501004022016","solo_flg":"00000100","user_mobile":"15126311458","user_name":"李五","version":"10"}
+2018-10-09 13:28:27 [main] ERROR .trans.service.impl.TransHFTXServiceImpl -加签失败:{"bg_ret_url":"http://test.widefinance.cn:8082/transController/hftxnotify.do","cert_id":"110101199003079411","cmd_id":"101","cust_area":"3100","cust_prov":"0031","mer_cust_id":"6666000000045782","order_date":"20180930","order_id":"20180930501004022016","solo_flg":"00000100","user_mobile":"15126311458","user_name":"李五","version":"10"}
+2018-10-09 13:39:12 [main] INFO  .trans.service.impl.TransHFTXServiceImpl -请求参数:{"bg_ret_url":"http://test.widefinance.cn:8082/transController/hftxnotify.do","cert_id":"110101199003079411","cmd_id":"101","cust_area":"3100","cust_prov":"0031","mer_cust_id":"6666000000045782","order_date":"20180930","order_id":"20180930501004022016","solo_flg":"00000100","user_mobile":"15126311458","user_name":"李五","version":"10"}
+2018-10-09 13:39:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert date is valid:Wed Sep 13 12:17:05 CST 2017---Fri Sep 13 12:17:05 CST 2019
+2018-10-09 13:39:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -userX509Cert is right!
+2018-10-09 13:39:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 dig alg with verification: SHA-256
+2018-10-09 13:39:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 cert subject with verification:CN=051@100001@N3501040009317@1, OU=Organizational-1, OU=Local RA, O=CFCA TEST CA, C=CN
+2018-10-09 13:39:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -p7 signature: Yj0pcPXR+iZhuAdbiVq3ySreg+dH/+vS84Lj7TtVhU2vRghRJgXyMJD9EWCol4kWIZST6q2ZTl3IsU4ZqkbM1Hzfqsm7ZS19F59mcdPf3qmGaBmYMrko2MJItn+k9UHl+9O1oPLa3fvnoE/SrOYpbY+LzypbwiaJYaDUGxBBQg8P3Kq5vKWL5Y7gdCBQ4yblu9zJWjETn8+NzGTst/MLHfjro5DDJmhJOorg3dRDG155mTCUwd4qsGzPZS5bJ08ao88phEIKaI3Go3pec0LG1drDQviO30cXkT32A/+SmfaZzzBiM8rw7PSkuIKduRxtukQk35hQalngabIZmpGcbA==
+2018-10-09 13:39:15 [main] INFO  com.huifu.saturn.cfca.CFCASignature      -RSA P7 attach verify OK!
