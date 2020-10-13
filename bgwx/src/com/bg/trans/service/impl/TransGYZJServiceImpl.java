@@ -40,8 +40,8 @@ public class TransGYZJServiceImpl implements ITransGYZJService {
 //	private String entoutOrgUrl = "https://49.4.92.234/shesu/test/api/entout/portrait/org";
 	
 	
-	private String uid = "bjbgxxfw";
-	private String pwd = "bgxx.2s4d74hn";
+	private String uid = "";
+	private String pwd = "";
 	private String entstatPeopleUrl = "https://49.4.92.234/shesu/api/entstat/portrait/people";
 	private String entstatOrgUrl = "https://49.4.92.234/shesu/api/entstat/portrait/org";
 	private String entoutPeopleUrl = "https://49.4.92.234/shesu/api/entout/portrait/people";
