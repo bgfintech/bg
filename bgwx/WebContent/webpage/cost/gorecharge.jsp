@@ -77,7 +77,7 @@ html{margin:0;padding:0;font-size:14px;}
 							<span style="width:200px;color:#FF4500;font-size:12px" >注:充值后可在账单明细中查看结果</span>							
 							</label> -->
 							<label class="type1" style="height:40px;">
-							<span style="width:100%;color:#FF4500;font-size:16px;text-align:left" >9月充值优惠活动:&nbsp;A.单笔充值1000元赠100元;&nbsp;&nbsp;&nbsp;B.单笔充值2000元赠400元.</span>							
+							<span style="width:100%;color:#FF4500;font-size:16px;text-align:left" >充值优惠活动:&nbsp;A.单笔充值1000元赠100元;&nbsp;&nbsp;&nbsp;</span>							
 							</label>
 							<label class="type1" style="height:50px;text-align:center">									
 							<div>
