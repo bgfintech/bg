@@ -403,46 +403,55 @@ public class BPEntServiceImpl implements IBPEntService {
 		com.bg.interfaces.entity.internal.CaseT ict = new com.bg.interfaces.entity.internal.CaseT();
 		ict.setC_ah(ct.getC_ah());
 		ict.setN_ajbs(ct.getN_ajbs());
-		switch (ct.getCase_type()) {
-		case "200":
-			ict.setCase_type("刑事");
-			break;
-		case "300":
-			ict.setCase_type("民事");
-			break;
-		case "400":
-			ict.setCase_type("行政");
-			break;
-		case "1000":
-			ict.setCase_type("执行");
-			break;
-		case "1100":
-			ict.setCase_type("清算破产");
-			break;
-		default:
-			ict.setCase_type(ct.getCase_type());
-			break;
+		if(ct.getCase_type()==null){
+			ict.setCase_type("");
+		}else{
+			switch (ct.getCase_type()) {
+			case "200":
+				ict.setCase_type("刑事");
+				break;
+			case "300":
+				ict.setCase_type("民事");
+				break;
+			case "400":
+				ict.setCase_type("行政");
+				break;
+			case "1000":
+				ict.setCase_type("执行");
+				break;
+			case "1100":
+				ict.setCase_type("清算破产");
+				break;
+			default:
+				ict.setCase_type(ct.getCase_type());
+				break;
+			}
 		}
-		switch (ct.getStage_type()) {
-		case "1":
-			ict.setStage_type("一审");
-			break;
-		case "2":
-			ict.setStage_type("二审");
-			break;
-		case "3":
-			ict.setStage_type("再审审查");
-			break;
-		case "4":
-			ict.setStage_type("再审");
-			break;
-		case "5":
-			ict.setStage_type("执行");
-			break;
-		default:
-			ict.setStage_type(ct.getStage_type());
-			break;
-		}
+		if(ct.getStage_type()==null){
+			ict.setStage_type("");
+		}else{
+			switch (ct.getStage_type()) {
+			case "1":
+				ict.setStage_type("一审");
+				break;
+			case "2":
+				ict.setStage_type("二审");
+				break;
+			case "3":
+				ict.setStage_type("再审审查");
+				break;
+			case "4":
+				ict.setStage_type("再审");
+				break;
+			case "5":
+				ict.setStage_type("执行");
+				break;
+			default:
+				ict.setStage_type(ct.getStage_type());
+				break;
+			}
+		}	
+		
 		if(ct.getNext()!=null){
 			com.bg.interfaces.entity.internal.CaseT nict = transformCaseT(ct.getNext());
 			ict.setNext(nict);
