@@ -102,7 +102,7 @@
 			</div>
 		</div>
 		<div class="signup-footer">
-			<div class="pull-left">京ICP备18000745号 布广信息服务有限公司</div>
+			<div class="pull-left"><a href="https://beian.miit.gov.cn" style="color:#fff" target="_blank">京ICP备18000745号-1</a> 布广信息服务有限公司</div>
 		</div>
 	</div>
 	<ul id="supersized" class="quality" style="visibility: visible;">
