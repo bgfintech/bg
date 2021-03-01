@@ -63,7 +63,7 @@ html{margin:0;padding:0;font-size:14px;}
                     </div>
                     <div id="content">
                         <form class="form1_rec">
-							<label class="type1" style="height:120px;">
+							<label class="type1" style="height:100px;">
 							<span>微信支付-充值金额：</span>
 							<div class="clearfix">
 							<span class="a-num active" RMB="20000">200元<img class="select-img" src="images/icon/select-icon.png" alt=""></span>
@@ -76,8 +76,10 @@ html{margin:0;padding:0;font-size:14px;}
 							<label class="type1" style="height:20px;">
 							<span style="width:200px;color:#FF4500;font-size:12px" >注:充值后可在账单明细中查看结果</span>							
 							</label> -->
-							<label class="type1" style="height:40px;">
-							<span style="width:100%;color:#FF4500;font-size:16px;text-align:left" >充值优惠活动:&nbsp;A.单笔充值1000元赠100元;&nbsp;&nbsp;&nbsp;</span>							
+							<label class="type1" style="height:80px;">
+							<span style="width:100%;color:#FF4500;font-size:16px;text-align:left" >牛年三月活动开门红:&nbsp;A.单次充值1000元赠150元;&nbsp;&nbsp;&nbsp;
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.单次充值2000元赠500元;
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C.单次充值5000元赠1500元;&nbsp;&nbsp;&nbsp;</span>						
 							</label>
 							<label class="type1" style="height:50px;text-align:center">									
 							<div>
